@@ -8,7 +8,7 @@
     sHtml += '    <param name="allowScriptAccess" value="always">';
     sHtml += '    <param name="movie" value="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.swf">';
     sHtml += '    <param name="quality" value="high">';
-    sHtml += '    <param name="bgcolor" value="#66ccff">';
+    sHtml += '    <param name="bgcolor" value="#ffffff">';
     sHtml += '    <param name="wmode" value="transparent">';
     sHtml += '    <embed wmode="transparent" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.swf" quality="high" bgcolor="#ffffff" width="160" height="70" name="honehoneclock" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">';
     sHtml += '    </object>';
