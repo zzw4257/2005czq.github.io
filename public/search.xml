@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>hello</title>
+      <link href="/2019/07/hello/"/>
+      <url>/2019/07/hello/</url>
+      
+        <content type="html"><![CDATA[<p>$\text{如图可知：}$</p><p>$2A=ad$</p><p>$2B=(a-c)(b-d)=ab-ad-bc+cd$</p><p>$2C=bc$</p><p>$\text{可得出}$</p><p>$2B=ab-2A-2C+cd$</p><p>$\frac{2A\times 2C}{ab}=\frac{4AC}{ab}=cd$</p><p>$\therefore 2(A+B+C)=ab+\frac{4AC}{ab}$</p><p>$\text{设$ab($正方形总面积$)$为$x$，原式等于}$</p><script type="math/tex; mode=display">2(A+B+C)=x+\frac{4AC}{x}</script><script type="math/tex; mode=display">2x(A+B+C)=x^2+4AC</script><script type="math/tex; mode=display">(-1)x^2+2(A+B+C)x+(-4AC)=0</script><script type="math/tex; mode=display">x=\frac{-2(A+B+C)\pm\sqrt{[2(A+B+C)]^2-4\times(-1)\times(-4AC)}}{2\times(-1)}</script><script type="math/tex; mode=display">x=\frac{-2(A+B+C)\pm\sqrt{4(A+B+C)^2-16AC}}{-2}</script><script type="math/tex; mode=display">x=\frac{-2(A+B+C)]}{-2}\pm\frac{\sqrt{4(A+B+C)^2-16AC}}{-2}</script><script type="math/tex; mode=display">x=A+B+C\pm\sqrt{\frac{4(A+B+C)^2-16AC}{4}}</script><script type="math/tex; mode=display">x=A+B+C\pm\sqrt{(A+B+C)^2-4AC}</script><p>$\text{即}$</p><script type="math/tex; mode=display">ab=A+B+C\pm\sqrt{(A+B+C)^2-4AC}</script><p>$\text{$\because$答案$=ab-A-B-C$}$</p><p>$\text{$\therefore$答案$=A+B+C\pm\sqrt{(A+B+C)^2-4AC}-A-B-C$}$</p><p>$\text{$\qquad\ =\pm\sqrt{(A+B+C)^2-4AC}$}$</p><p>$\text{$\therefore$答案为正数}$</p><p>$\text{$\therefore$答案$=\sqrt{(A+B+C)^2-4AC}$}$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
