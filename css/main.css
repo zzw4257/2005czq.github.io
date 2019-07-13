@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #47ffff;
+  background: #6a5ebf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2652,4 +2652,57 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.site-author-name {
+  margin: 48px 0 0;
+  color: #6cf;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+.sidebar {
+  box-shadow: inset 2px 2px 40px #6cf;
+}
+.sidebar a {
+  color: #6cf;
+  border-bottom-color: #6cf;
+  border-bottom: none;
+}
+.sidebar a:hover {
+  color: #6cf;
+}
+.site-state-item {
+  display: inline-block;
+  padding: 8px 28px;
+  border-left: 1px solid #649ab6;
+}
+.sidebar-nav .sidebar-nav-active {
+  color: #649ab6;
+  border-bottom-color: #649ab6;
+}
+.sidebar-nav li:hover {
+  color: #0c0b0b;
+}
+.post-button .btn {
+  color: #fff;
+  font-size: 15px;
+  background: #686868;
+  border-radius: 16px;
+  line-height: 2;
+  margin: 0 4px 8px 4px;
+  padding: 0 20px;
+}
+.post-button a:hover {
+  color: #6cf;
+}
+.sidebar-toggle {
+  background: #6cf;
+}
+.back-to-top {
+  background: #6cf;
+}
+.footer-inner {
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+}
+.header {
+  background: url("/images/10000.jpg");
 }
