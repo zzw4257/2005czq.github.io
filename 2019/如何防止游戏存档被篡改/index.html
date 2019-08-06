@@ -90,7 +90,7 @@
 
 
 
-  <meta name="keywords" content="�̳�,��Ϸ,">
+  <meta name="keywords" content="教程,游戏,">
 
 
 
@@ -101,18 +101,18 @@
 
 
 
-<meta name="description" content="$By\ King$ ����ڸ���������Ϸ��������һ���浵�Ĺ��ܡ�������Ϸ�浵�����ױ��۸ģ����������ǽ�һ����η�ֹ��Ϸ�浵���۸ġ�">
-<meta name="keywords" content="�̳�,��Ϸ">
+<meta name="description" content="$By\ King$ 最近在搞五子棋游戏，加入了一个存档的功能。但是游戏存档很容易被篡改，接下来我们讲一讲如何防止游戏存档被篡改。">
+<meta name="keywords" content="教程,游戏">
 <meta property="og:type" content="article">
-<meta property="og:title" content="��η�ֹ��Ϸ�浵���۸�">
+<meta property="og:title" content="如何防止游戏存档被篡改">
 <meta property="og:url" content="http://2005czq.github.io/2019/如何防止游戏存档被篡改/index.html">
 <meta property="og:site_name" content="RioBlu &amp; King">
-<meta property="og:description" content="$By\ King$ ����ڸ���������Ϸ��������һ���浵�Ĺ��ܡ�������Ϸ�浵�����ױ��۸ģ����������ǽ�һ����η�ֹ��Ϸ�浵���۸ġ�">
+<meta property="og:description" content="$By\ King$ 最近在搞五子棋游戏，加入了一个存档的功能。但是游戏存档很容易被篡改，接下来我们讲一讲如何防止游戏存档被篡改。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-06T05:03:04.844Z">
+<meta property="og:updated_time" content="2019-08-06T05:15:18.057Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="��η�ֹ��Ϸ�浵���۸�">
-<meta name="twitter:description" content="$By\ King$ ����ڸ���������Ϸ��������һ���浵�Ĺ��ܡ�������Ϸ�浵�����ױ��۸ģ����������ǽ�һ����η�ֹ��Ϸ�浵���۸ġ�">
+<meta name="twitter:title" content="如何防止游戏存档被篡改">
+<meta name="twitter:description" content="$By\ King$ 最近在搞五子棋游戏，加入了一个存档的功能。但是游戏存档很容易被篡改，接下来我们讲一讲如何防止游戏存档被篡改。">
 
 
 
@@ -148,7 +148,7 @@
 
 
 
-  <title>��η�ֹ��Ϸ�浵���۸� | RioBlu & King</title>
+  <title>如何防止游戏存档被篡改 | RioBlu & King</title>
   
 
 
@@ -324,7 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">��η�ֹ��Ϸ�浵���۸�</h1>
+          <h1 class="post-title" itemprop="name headline">如何防止游戏存档被篡改</h1>
         
 
         <div class="post-meta">
@@ -360,8 +360,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/�̳�/" itemprop="url" rel="index">
-                    <span itemprop="name">�̳�</span>
+                  <a href="/categories/教程/" itemprop="url" rel="index">
+                    <span itemprop="name">教程</span>
                   </a>
                 </span>
 
@@ -398,47 +398,47 @@
 
       
         <p>$By\ King$</p>
-<p>����ڸ���������Ϸ��������һ���浵�Ĺ��ܡ�������Ϸ�浵�����ױ��۸ģ����������ǽ�һ����η�ֹ��Ϸ�浵���۸ġ�</p>
+<p>最近在搞五子棋游戏，加入了一个存档的功能。但是游戏存档很容易被篡改，接下来我们讲一讲如何防止游戏存档被篡改。</p>
 <a id="more"></a>
-<h1 id="1-�l�λ��"><a href="#1-�l�λ��" class="headerlink" title="1.�ļ�λ��"></a>1.�ļ�λ��</h1><p>�ܶ൥����Ϸ����ֱ�Ӱ���Ϸ�浵��������Ϸ��ͬ�ļ����У�֮ǰ$RioBlu$����<code>ͳһ����</code>����������<del>������۸��߿���һ��</del>��</p>
-<p>�������ǿ��Խ��ļ�������$C$�̰���$D$����Щ�ġ�</p>
+<h1 id="1-文件位置"><a href="#1-文件位置" class="headerlink" title="1.文件位置"></a>1.文件位置</h1><p>很多单机游戏都会直接把游戏存档存在与游戏的同文件夹中（之前$RioBlu$做的<code>统一天下</code>就是这样，<del>就像给篡改者看的一样</del>）</p>
+<p>所以我们可以将文件存在像$C$盘啊，$D$盘这些的。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ofstream <span class="title">O</span><span class="params">(<span class="string">"C:\\2005czq.github.io"</span>)</span></span>;</span><br><span class="line">O&lt;&lt;a;</span><br></pre></td></tr></table></figure>
-<p>�������������һЩȱ�ݣ���Щ������û��$D$����Щ�ģ���������û�ǿ��ɾ����ʱ������������������浵�����ĸ�λ�ã�ֱ�Ӱ���<code>exe</code>�ļ�ɾ�ˡ������ͻ��в�����</p>
-<h1 id="2-�����l�"><a href="#2-�����l�" class="headerlink" title="2.�����ļ�"></a>2.�����ļ�</h1><p>���ǿ��������ļ�ʹ�۸����Ҳ����ļ���</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SetFileAttributes(<span class="string">"2005czq.github.io"</span>,FILE_ATTRIBUTE_HIDDEN);<span class="comment">//����</span></span><br><span class="line">SetFileAttributes(<span class="string">"2005czq.github.io"</span>,FILE_ATTRIBUTE_NORMAL);<span class="comment">//ȡ������</span></span><br></pre></td></tr></table></figure>
-<p>���������ļ���Ҳ�����á�</p>
-<p>ȱ�ݣ����Կ���ͨ��<code>����-�ļ���ѡ��-�鿴-�߼�����</code>����ʾ���б����ص��ļ���</p>
-<p><strong>ע�⣺���ļ�������ʱ�������ǿ��Զ��ļ�����<code>DeleteFile</code>��<code>ifstream</code>�����������Ҫִ��<code>ofstream</code>��������Ҫ�Ƚ��ļ�ɾ��</strong></p>
-<h1 id="3-����"><a href="#3-����" class="headerlink" title="3.����"></a>3.����</h1><p>��õķ����϶��Ǽ����ˡ�</p>
-<h2 id="1-���Լ����o�"><a href="#1-���Լ����o�" class="headerlink" title="(1)���Լ����õ�"></a>(1)���Լ����õ�</h2><ul>
-<li>��<code>�й����� ����ս��</code>���棺<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> r=rand(),r2=rand();<span class="comment">//�������������</span></span><br><span class="line">r2+=r;</span><br><span class="line">O&lt;&lt;r*r*r&lt;&lt;<span class="string">" "</span>&lt;&lt;r2*r2;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">10</span>;i++)&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;j++)O&lt;&lt;table[i][j]*table[i][j]+r2&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">	O&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;L_len;i++)</span><br><span class="line">		O&lt;&lt;Line[i].x1-r&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].y1+r&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].x2-r2&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].y2+r2&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].eat*<span class="number">2</span>&lt;&lt;<span class="built_in">endl</span>;</span><br></pre></td></tr></table></figure>
+<p>但是这个可能有一些缺陷，有些电脑是没有$D$盘这些的，而且如果用户强制删除的时候他根本不会在意你存档存在哪个位置，直接把你<code>exe</code>文件删了。这样就会有残留。</p>
+<h1 id="2-隐藏文件"><a href="#2-隐藏文件" class="headerlink" title="2.隐藏文件"></a>2.隐藏文件</h1><p>我们可以隐藏文件使篡改者找不到文件。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SetFileAttributes(<span class="string">"2005czq.github.io"</span>,FILE_ATTRIBUTE_HIDDEN);<span class="comment">//隐藏</span></span><br><span class="line">SetFileAttributes(<span class="string">"2005czq.github.io"</span>,FILE_ATTRIBUTE_NORMAL);<span class="comment">//取消隐藏</span></span><br></pre></td></tr></table></figure>
+<p>以上语句对文件夹也可以用。</p>
+<p>缺陷：电脑可以通过<code>工具-文件夹选项-查看-高级设置</code>里显示所有被隐藏的文件。</p>
+<p><strong>注意：当文件被隐藏时，程序还是可以对文件进行<code>DeleteFile</code>和<code>ifstream</code>操作，但如果要执行<code>ofstream</code>操作，需要先将文件删除</strong></p>
+<h1 id="3-加密"><a href="#3-加密" class="headerlink" title="3.加密"></a>3.加密</h1><p>最好的方法肯定是加密了。</p>
+<h2 id="1-我自己常用的"><a href="#1-我自己常用的" class="headerlink" title="(1)我自己常用的"></a>(1)我自己常用的</h2><ul>
+<li>在<code>中国象棋 抗日战争</code>里面：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> r=rand(),r2=rand();<span class="comment">//产生两个随机数</span></span><br><span class="line">r2+=r;</span><br><span class="line">O&lt;&lt;r*r*r&lt;&lt;<span class="string">" "</span>&lt;&lt;r2*r2;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">10</span>;i++)&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;j++)O&lt;&lt;table[i][j]*table[i][j]+r2&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">	O&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;L_len;i++)</span><br><span class="line">		O&lt;&lt;Line[i].x1-r&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].y1+r&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].x2-r2&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].y2+r2&lt;&lt;<span class="string">" "</span>&lt;&lt;Line[i].eat*<span class="number">2</span>&lt;&lt;<span class="built_in">endl</span>;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>��Ϊ��ʱ��Ϸ���Ǻܳ���<del>����������Ҳ�ǣ�</del>�����Լ����㷨�õĲ����ر�á�</p>
+<p>因为当时游戏不是很出名<del>（反正现在也是）</del>，所以加密算法用的不是特别好。</p>
 <ul>
-<li><code>������</code>����ģ����ﲻ���������ˣ�������������һ������Ȼ���������һ�������������浵��Ȼ���Ժ�����ݶ���ͨ�������Կ�ó������ң��浵���ȥ����һ��ͼƬ��</li>
+<li><code>五子棋</code>里面的：这里不公开代码了，大概是随机生成一个数，然后用它异或一个数后的数存出存档，然后以后的数据都是通过这个秘钥得出。而且！存档存出去后是一张图片！</li>
 </ul>
-<h2 id="2-���������㷨"><a href="#2-���������㷨" class="headerlink" title="(2)���������㷨"></a>(2)���������㷨</h2><p>ֻҪ�����뵽�Ķ����ԣ�����$MD5$��$SHA256$����Щ�㷨��ȫ�Ⱥܸߣ������ֻ�Ǳ��С��Ϸ�������Լ���Ƽ����㷨��</p>
-<h2 id="3-��ν��浵���ͼT"><a href="#3-��ν��浵���ͼT" class="headerlink" title="(3)��ν��浵���ͼƬ"></a>(3)��ν��浵���ͼƬ</h2><p>��ʵ���ʮ�ּ򵥣��ٶ�Ҳ�ǿ����ҵ��ġ�</p>
-<p>���ǽ����ݴ�Ϊ<code>ppm</code>�ļ���һ��<code>Linux</code>��ͼƬ��ʽ���������ļ��Ĵ洢��ʽʮ�ּ򵥣�</p>
+<h2 id="2-其他加密算法"><a href="#2-其他加密算法" class="headerlink" title="(2)其他加密算法"></a>(2)其他加密算法</h2><p>只要你能想到的都可以，例如$MD5$、$SHA256$，这些算法安全度很高，如果你只是编个小游戏，可以自己设计加密算法。</p>
+<h2 id="3-如何将存档变成图片"><a href="#3-如何将存档变成图片" class="headerlink" title="(3)如何将存档变成图片"></a>(3)如何将存档变成图片</h2><p>其实这个十分简单，百度也是可以找到的。</p>
+<p>就是将数据存为<code>ppm</code>文件（一种<code>Linux</code>的图片格式），这种文件的存储方式十分简单：</p>
 <blockquote>
-<p>P3 ͼƬ�� ͼƬ�� 255<br>������ ͼƬ��*ͼƬ�� �����ص�<br>ÿ�����ص�RGBֵ����ֵ��R G B��ÿ��ֵ��0��255֮�䣩</p>
+<p>P3 图片长 图片宽 255<br>接下来 图片长*图片宽 个像素点<br>每个像素点RGB值三个值：R G B（每个值在0到255之间）</p>
 </blockquote>
-<p>�����������һ����</p>
+<p>例如下面就是一个：</p>
 <blockquote>
 <p>P3 2 2 255<br>255 255 255<br>102 204 255<br>57 197 187<br>0 0 0</p>
 </blockquote>
-<p>Ҳ���԰�������ѹ��һ�С�<br>���ǿ��Խ�������$256$����������ôÿ�����ص������Դ�$0$��$255\times65536+255\times256+255=2^{24}-1$������</p>
-<p>�����Ҫ��������ݸ��������������������Ӽ�������������档<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ofstream <span class="title">O</span><span class="params">(<span class="string">"1.ppm"</span>)</span></span>;</span><br><span class="line">O&lt;&lt;<span class="string">"P3 "</span>&lt;&lt;h&lt;&lt;<span class="string">" "</span>&lt;&lt;w&lt;&lt;<span class="string">" 255"</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;h;i++)</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;w;j++)</span><br><span class="line">		O&lt;&lt;<span class="string">" "</span>&lt;&lt;a[i][j].r&lt;&lt;<span class="string">" "</span>&lt;&lt;a[i][j].g&lt;&lt;<span class="string">" "</span>&lt;&lt;a[i][j].b;</span><br></pre></td></tr></table></figure></p>
-<p>���ǿ��������Ƶķ����������ݴ���Ϊ<code>wav</code>�ļ�����Ϊ��������������Ժ���ʱ����˵��</p>
-<h2 id="4-��ѧ��"><a href="#4-��ѧ��" class="headerlink" title="(4)��ѧ��"></a>(4)��ѧ��</h2><p>���ұ�<code>�й����� ����ս��</code>��ʱ������Ҫ�����ģ�Ȼ��$RioBlu$���ҽ�����һ�ּ��ܴ󷨣�ֻ����ȫ�Ƿ��ţ�����а�Ƿ���������ܽ���������<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> s=<span class="string">"��¬��ΰû�п���"</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;s.size();i++)O&lt;&lt;s[i]&lt;&lt;<span class="string">" "</span>;</span><br></pre></td></tr></table></figure></p>
-<p>�������г����ʱ���㿴�浵�ᷢ�ֶ���һ�������ƵĶ�����������Ϊ���ȫ�Ƿ��Ų�����ݣ��ͻ������룬���ǻ��ǿ��Զ���ģ�<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> v=<span class="string">""</span>;</span><br><span class="line"><span class="keyword">char</span> ch=<span class="string">""</span>;</span><br><span class="line"><span class="keyword">while</span>(I&gt;&gt;ch)v+=ch;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;v;</span><br></pre></td></tr></table></figure></p>
-<p>�Ҿ������ַ���ͦ���������ҵ����������������<del>Ҳ��֪��Ϊʲô</del>��ֻҪ��һ�Ĵ浵���������̾ͻ������룬�������ʲô�����������Ļ��������������롣<br><a href="https://share.weiyun.com/5KyEqcF" target="_blank" rel="noopener">����һ��</a>������<code>iloveu</code>���浵��ͬ�ļ��е�<code>chess\data\</code>���棬�ļ��������ˣ�</p>
-<h1 id="4-��ȡ�ж�"><a href="#4-��ȡ�ж�" class="headerlink" title="4.��ȡ�ж�"></a>4.��ȡ�ж�</h1><p>�ڶ�ȡ��ʱ������жϣ������ȡ����Ϣ����Ϸ�趨�����ϣ��������Ǹ���������ôֱ��ɾ���浵��</p>
-<p>$RioBlu$��<code>ͳһ����</code>Ҳ�������������������Ϊ����������̫��������ɸ��������ͻ�����һЩ������뿨���ԣ������Ӻ���̫��<del>��˭������Ҵ浵</del>����</p>
-<h1 id="5-����"><a href="#5-����" class="headerlink" title="5.����"></a>5.����</h1><p>������ɺ���͵�һ�ء��ܺ��ӡ��������Լ��Ĵ浵�᲻������ױ��۸ġ�</p>
-<p>��Ҳ���Խ�����ĺ�������һ����ԡ�</p>
-<h1 id="6-С��"><a href="#6-С��" class="headerlink" title="6.С��"></a>6.С��</h1><p>ֻҪ���ܺܺõؽ����漸�����ã���������Ĵ浵���ᱻ�۸ġ�</p>
+<p>也可以把所有数压在一行。<br>我们可以将它看成$256$进制数，那么每个像素点最多可以存$0$到$255\times65536+255\times256+255=2^{24}-1$的数。</p>
+<p>如果你要储存的数据个数是质数个，可以添加几个随机数在里面。<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ofstream <span class="title">O</span><span class="params">(<span class="string">"1.ppm"</span>)</span></span>;</span><br><span class="line">O&lt;&lt;<span class="string">"P3 "</span>&lt;&lt;h&lt;&lt;<span class="string">" "</span>&lt;&lt;w&lt;&lt;<span class="string">" 255"</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;h;i++)</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;w;j++)</span><br><span class="line">		O&lt;&lt;<span class="string">" "</span>&lt;&lt;a[i][j].r&lt;&lt;<span class="string">" "</span>&lt;&lt;a[i][j].g&lt;&lt;<span class="string">" "</span>&lt;&lt;a[i][j].b;</span><br></pre></td></tr></table></figure></p>
+<p>我们可以用类似的方法，将数据储存为<code>wav</code>文件（因为这个咕咕了所以以后有时间再说）</p>
+<h2 id="4-玄学大法"><a href="#4-玄学大法" class="headerlink" title="(4)玄学大法"></a>(4)玄学大法</h2><p>在我编<code>中国象棋 抗日战争</code>的时候，由于要存中文，然后$RioBlu$给我介绍了一种加密大法（只适用全角符号，如果有半角符号这个加密将很弱）：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> s=<span class="string">"我卢本伟没有开挂"</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;s.size();i++)O&lt;&lt;s[i]&lt;&lt;<span class="string">" "</span>;</span><br></pre></td></tr></table></figure></p>
+<p>当你运行程序的时候你看存档会发现都是一堆乱码似的东西，这是因为你把全角符号拆成两份，就会变成乱码，但是还是可以读入的！<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> v=<span class="string">""</span>;</span><br><span class="line"><span class="keyword">char</span> ch=<span class="string">""</span>;</span><br><span class="line"><span class="keyword">while</span>(I&gt;&gt;ch)v+=ch;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;v;</span><br></pre></td></tr></table></figure></p>
+<p>我觉得这种方法挺不错，而且当我用了这个方法后<del>也不知道为什么</del>，只要你一改存档，整个棋盘就会变成乱码，无论你改什么，而且如果你改回来，他还是乱码。<br><a href="https://share.weiyun.com/5KyEqcF" target="_blank" rel="noopener">体验一下</a>（密码<code>iloveu</code>，存档在同文件夹的<code>chess\data\</code>里面，文件都隐藏了）</p>
+<h1 id="4-读取判断"><a href="#4-读取判断" class="headerlink" title="4.读取判断"></a>4.读取判断</h1><p>在读取的时候加入判断，如果读取的信息和游戏设定不符合（例如金币是负数），那么直接删除存档。</p>
+<p>$RioBlu$的<code>统一天下</code>也是这样，当读入的数据为负数（数字太大会溢出变成负数），就会运行一些恶意代码卡电脑（这样子好像不太好<del>但谁叫你改我存档</del>）。</p>
+<h1 id="5-测试"><a href="#5-测试" class="headerlink" title="5.测试"></a>5.测试</h1><p>当你完成后，你就当一回“熊孩子”，测试自己的存档会不会很容易被篡改。</p>
+<p>你也可以叫上你的好朋友们一起测试。</p>
+<h1 id="6-小结"><a href="#6-小结" class="headerlink" title="6.小结"></a>6.小结</h1><p>只要你能很好地将上面几点做好，我相信你的存档不会被篡改。</p>
 <hr>
 <script type="math/tex; mode=display">\Huge The\ End</script>
       
@@ -457,11 +457,11 @@
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="/2019/如何防止游戏存档被篡改/">��η�ֹ��Ϸ�浵���۸�</a></p>
+  <p><span>本文标题:</span><a href="/2019/如何防止游戏存档被篡改/">如何防止游戏存档被篡改</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
   <p><span>发布时间:</span>2019年08月06日 - 13:08</p>
   <p><span>最后更新:</span>2019年08月06日 - 13:08</p>
-  <p><span>原始链接:</span><a href="/2019/如何防止游戏存档被篡改/" title="��η�ֹ��Ϸ�浵���۸�">http://2005czq.github.io/2019/如何防止游戏存档被篡改/</a>
+  <p><span>原始链接:</span><a href="/2019/如何防止游戏存档被篡改/" title="如何防止游戏存档被篡改">http://2005czq.github.io/2019/如何防止游戏存档被篡改/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/如何防止游戏存档被篡改/" aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
@@ -526,9 +526,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/�̳�/" <i class="fa fa-tag"> �̳�</a>
+            <a href="/tags/教程/" <i class="fa fa-tag"> 教程</a>
           
-            <a href="/tags/��Ϸ/" <i class="fa fa-tag"> ��Ϸ</a>
+            <a href="/tags/游戏/" <i class="fa fa-tag"> 游戏</a>
           
         </div>
       
@@ -556,8 +556,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/如何找单峰函数峰值/" rel="next" title="如何找单峰函数峰值">
-                <i class="fa fa-chevron-left"></i> 如何找单峰函数峰值
+              <a href="/2019/趣题：定义正整数P，使得2到N的数字都整除不了P/" rel="next" title="趣题：定义正整数P，使得2到N的数字都整除不了P">
+                <i class="fa fa-chevron-left"></i> 趣题：定义正整数P，使得2到N的数字都整除不了P
               </a>
             
           </div>
@@ -565,10 +565,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/趣题：定义正整数P，使得2到N的数字都整除不了P/" rel="prev" title="Ȥ�⣺����������P��ʹ��2��N�����ֶ���������P">
-                Ȥ�⣺����������P��ʹ��2��N�����ֶ���������P <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -663,7 +659,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -674,7 +670,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -783,7 +779,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-�l�λ��"><span class="nav-number">1.</span> <span class="nav-text">1.�ļ�λ��</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-�����l�"><span class="nav-number">2.</span> <span class="nav-text">2.�����ļ�</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-����"><span class="nav-number">3.</span> <span class="nav-text">3.����</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-���Լ����o�"><span class="nav-number">3.1.</span> <span class="nav-text">(1)���Լ����õ�</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-���������㷨"><span class="nav-number">3.2.</span> <span class="nav-text">(2)���������㷨</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-��ν��浵���ͼT"><span class="nav-number">3.3.</span> <span class="nav-text">(3)��ν��浵���ͼƬ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-��ѧ��"><span class="nav-number">3.4.</span> <span class="nav-text">(4)��ѧ��</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-��ȡ�ж�"><span class="nav-number">4.</span> <span class="nav-text">4.��ȡ�ж�</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-����"><span class="nav-number">5.</span> <span class="nav-text">5.����</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-С��"><span class="nav-number">6.</span> <span class="nav-text">6.С��</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-文件位置"><span class="nav-number">1.</span> <span class="nav-text">1.文件位置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-隐藏文件"><span class="nav-number">2.</span> <span class="nav-text">2.隐藏文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-加密"><span class="nav-number">3.</span> <span class="nav-text">3.加密</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-我自己常用的"><span class="nav-number">3.1.</span> <span class="nav-text">(1)我自己常用的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-其他加密算法"><span class="nav-number">3.2.</span> <span class="nav-text">(2)其他加密算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-如何将存档变成图片"><span class="nav-number">3.3.</span> <span class="nav-text">(3)如何将存档变成图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-玄学大法"><span class="nav-number">3.4.</span> <span class="nav-text">(4)玄学大法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-读取判断"><span class="nav-number">4.</span> <span class="nav-text">4.读取判断</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-测试"><span class="nav-number">5.</span> <span class="nav-text">5.测试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-小结"><span class="nav-number">6.</span> <span class="nav-text">6.小结</span></a></li></ol></div>
             
 
           </div>
@@ -805,7 +801,7 @@
       <div class="footer-inner">
         ﻿<div class="theme-info">
   <div class="powered-by"></div>
-  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共10.3k字</span>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共11.6k字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
