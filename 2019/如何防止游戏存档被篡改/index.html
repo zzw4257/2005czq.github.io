@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="RioBlu &amp; King">
 <meta property="og:description" content="$By\ King$ 最近在搞五子棋游戏，加入了一个存档的功能。但是游戏存档很容易被篡改，接下来我们讲一讲如何防止游戏存档被篡改。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-06T05:15:18.057Z">
+<meta property="og:updated_time" content="2019-08-15T11:12:57.241Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何防止游戏存档被篡改">
 <meta name="twitter:description" content="$By\ King$ 最近在搞五子棋游戏，加入了一个存档的功能。但是游戏存档很容易被篡改，接下来我们讲一讲如何防止游戏存档被篡改。">
@@ -403,7 +403,8 @@
 <h1 id="1-文件位置"><a href="#1-文件位置" class="headerlink" title="1.文件位置"></a>1.文件位置</h1><p>很多单机游戏都会直接把游戏存档存在与游戏的同文件夹中（之前$RioBlu$做的<code>统一天下</code>就是这样，<del>就像给篡改者看的一样</del>）</p>
 <p>所以我们可以将文件存在像$C$盘啊，$D$盘这些的。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ofstream <span class="title">O</span><span class="params">(<span class="string">"C:\\2005czq.github.io"</span>)</span></span>;</span><br><span class="line">O&lt;&lt;a;</span><br></pre></td></tr></table></figure>
-<p>但是这个可能有一些缺陷，有些电脑是没有$D$盘这些的，而且如果用户强制删除的时候他根本不会在意你存档存在哪个位置，直接把你<code>exe</code>文件删了。这样就会有残留。</p>
+<p>但是这个可能有一些缺陷，有些电脑是没有$D$盘这些的，而且如果用户强制删除的时候他根本不会在意你存档存在哪个位置，直接把你<code>exe</code>文件删了。这样就会有文件残留。</p>
+<p>当然你也可以跟用户说一下。</p>
 <h1 id="2-隐藏文件"><a href="#2-隐藏文件" class="headerlink" title="2.隐藏文件"></a>2.隐藏文件</h1><p>我们可以隐藏文件使篡改者找不到文件。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SetFileAttributes(<span class="string">"2005czq.github.io"</span>,FILE_ATTRIBUTE_HIDDEN);<span class="comment">//隐藏</span></span><br><span class="line">SetFileAttributes(<span class="string">"2005czq.github.io"</span>,FILE_ATTRIBUTE_NORMAL);<span class="comment">//取消隐藏</span></span><br></pre></td></tr></table></figure>
 <p>以上语句对文件夹也可以用。</p>
@@ -460,7 +461,7 @@
   <p><span>本文标题:</span><a href="/2019/如何防止游戏存档被篡改/">如何防止游戏存档被篡改</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
   <p><span>发布时间:</span>2019年08月06日 - 13:08</p>
-  <p><span>最后更新:</span>2019年08月06日 - 13:08</p>
+  <p><span>最后更新:</span>2019年08月15日 - 19:08</p>
   <p><span>原始链接:</span><a href="/2019/如何防止游戏存档被篡改/" title="如何防止游戏存档被篡改">http://2005czq.github.io/2019/如何防止游戏存档被篡改/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/如何防止游戏存档被篡改/" aria-label="复制成功！"></i></span>
   </p>
@@ -556,8 +557,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/如何找单峰函数峰值/" rel="next" title="如何找单峰函数峰值">
-                <i class="fa fa-chevron-left"></i> 如何找单峰函数峰值
+              <a href="/2019/趣题：定义正整数P，使得2到N的数字都整除不了P/" rel="next" title="趣题：定义正整数P，使得2到N的数字都整除不了P">
+                <i class="fa fa-chevron-left"></i> 趣题：定义正整数P，使得2到N的数字都整除不了P
               </a>
             
           </div>
@@ -566,8 +567,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/趣题：定义正整数P，使得2到N的数字都整除不了P/" rel="prev" title="趣题：定义正整数P，使得2到N的数字都整除不了P">
-                趣题：定义正整数P，使得2到N的数字都整除不了P <i class="fa fa-chevron-right"></i>
+              <a href="/2019/趣题：七夕与质数/" rel="prev" title="趣题：七夕与质数">
+                趣题：七夕与质数 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
