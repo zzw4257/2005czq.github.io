@@ -110,7 +110,7 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/07/16/ZqpPIJ.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/07/16/ZqpCa4.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/07/17/ZqqONq.png">
-<meta property="og:updated_time" content="2019-07-19T05:32:42.137Z">
+<meta property="og:updated_time" content="2019-08-25T14:58:23.685Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="揭开虚数i的神秘面纱">
 <meta name="twitter:description" content="$By\ King$  $e^{i\pi}+1=0$">
@@ -531,7 +531,12 @@
 <p>这里给出$\sqrt[3]{i}$的解：$\sqrt[3]{i}=-i=\frac{i\pm\sqrt{3}}{2}$</p>
 <h3 id="2-分子不为-1-的分数"><a href="#2-分子不为-1-的分数" class="headerlink" title="$2.$分子不为$1$的分数"></a>$2.$分子不为$1$的分数</h3><p>其实这很简单，因为$i^{\frac{a}{b}}={(i^{\frac{1}{b}})}^a$，而且我们知道$i^{\frac{1}{b}}$的值，那么代入再$a$次方即可。</p>
 <p>至此，我们将有理数完成了。</p>
-<h2 id="3-无理数"><a href="#3-无理数" class="headerlink" title="$3.$无理数"></a>$3.$无理数</h2><p>目前我还没有想到这一类的解决方法，如果你们可以，请在下方评论区告诉我，谢谢。</p>
+<h2 id="3-无理数"><a href="#3-无理数" class="headerlink" title="$3.$无理数"></a>$3.$无理数</h2><p><del>目前我还没有想到这一类的解决方法，如果你们可以，请在下方评论区告诉我，谢谢。</del></p>
+<p><code>Update 2019.8.25</code></p>
+<p>今天突然想到一个计算无理数幂的方法——不断逼近</p>
+<script type="math/tex; mode=display">\Huge a^b=\prod\limits_{x=-\lfloor\log_{10}b\rfloor}^{\infty}(a^{\frac{\lfloor n\times10^x\rfloor\mod10}{10^x}})</script><p>假设我们要算$2^\pi$，那么可以把$\pi$分成$3,0.1,0.04,0.001,0.0005,0.00009\dots$这些，然后因为$n^{a+b}=n^a\times n^b(a,b=\frac{m}{n})$，所以$2^\pi=2^3\times2^{0.1}\times2^{0.04}\times2^{0.001}\times\dots$，当计算的项数越多，答案就越精确。</p>
+<p>那么</p>
+<script type="math/tex; mode=display">\Huge i^n=\prod\limits_{x=-\lfloor\log_{10}n\rfloor}^{\infty}(i^{\frac{\lfloor n\times10^x\rfloor\mod10}{10^x}})</script><p>因为我们可以计算$i^t(t=\frac{m}{n})$，而$\lfloor n\times10^x\rfloor\mod10$一定是一个有理数，那么我们计算出有理数幂后，相乘即可。</p>
 <h2 id="4-复数"><a href="#4-复数" class="headerlink" title="$4.$复数"></a>$4.$复数</h2><p>假使我们将实数搞定了（也就是无理数可以解决了），那么就到了虚数，但是虚数已经知道了$i^i=e^{-\frac{\pi}{2}}$。</p>
 <p>那么，我们将开始最后一站——复数。</p>
 <p>复数是类似于$a+bi$的数，之前有提及过。</p>
@@ -544,6 +549,7 @@
 <script type="math/tex; mode=display">i^x=i^{4\times\frac{x}{4}}={(i^4)}^{\frac{x}{4}}=1^{\frac{x}{4}}=1</script><p>如果你们能推翻它，请在下方评论区告诉我，谢谢。</p>
 <h1 id="6-Bug"><a href="#6-Bug" class="headerlink" title="$6.Bug$"></a>$6.Bug$</h1><p>作为文章的最后，给大家再看一个悖论：</p>
 <script type="math/tex; mode=display">\frac{-1}{1}=\frac{1}{-1}</script><script type="math/tex; mode=display">\sqrt{\frac{-1}{1}}=\sqrt{\frac{1}{-1}}</script><script type="math/tex; mode=display">\frac{\sqrt{-1}}{\sqrt{1}}=\frac{\sqrt{1}}{\sqrt{-1}}</script><script type="math/tex; mode=display">\frac{i}{1}=\frac{1}{i}</script><script type="math/tex; mode=display">1=i^2</script><script type="math/tex; mode=display">1=-1</script><p>当然这肯定是有很大的$bug$的，这就让你们自己去探索吧。</p>
+<p>$\color{white}{提示：开方有两种结果}$</p>
 <hr>
 <script type="math/tex; mode=display">\Huge The\ End.</script>
       
@@ -565,7 +571,7 @@
   <p><span>本文标题:</span><a href="/2019/揭开虚数i的神秘面纱/">揭开虚数i的神秘面纱</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
   <p><span>发布时间:</span>2019年07月18日 - 12:07</p>
-  <p><span>最后更新:</span>2019年07月19日 - 13:07</p>
+  <p><span>最后更新:</span>2019年08月25日 - 22:08</p>
   <p><span>原始链接:</span><a href="/2019/揭开虚数i的神秘面纱/" title="揭开虚数i的神秘面纱">http://2005czq.github.io/2019/揭开虚数i的神秘面纱/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/揭开虚数i的神秘面纱/" aria-label="复制成功！"></i></span>
   </p>
@@ -908,7 +914,7 @@
       <div class="footer-inner">
         ﻿<div class="theme-info">
   <div class="powered-by"></div>
-  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共16.4k字</span>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共16.6k字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
