@@ -2116,7 +2116,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #faff46;
+  background: #ffb0ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2971,7 +2971,7 @@ embed {
   display: inline-block;
 }
 .site-author-name {
-  margin: 48px 0 0;
+  margin: 12px 0 0;
   color: #6cf;
   font-family: 'Comic Sans MS', sans-serif;
 }
@@ -3021,7 +3021,8 @@ embed {
   text-align: center;
 }
 .header {
-  background: url("/images/background.jpg");
+  background: url("https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images");
+  background-size: cover !important;
 }
 .sidebar {
   background: url("https://i.loli.net/2019/07/11/5d27551bd735414588.jpg") no-repeat !important;
