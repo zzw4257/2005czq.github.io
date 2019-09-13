@@ -2080,7 +2080,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #345796;
+  background: #329190;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2966,7 +2966,7 @@ embed {
   background-size: cover !important;
 }
 .sidebar {
-  background: url("https://i.loli.net/2019/07/11/5d27551bd735414588.jpg") no-repeat !important;
+  background: url("https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images&method=mobile") no-repeat !important;
   background-size: cover !important;
   position: fixed !important;
   right: 0 !important;
