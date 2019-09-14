@@ -8,9 +8,65 @@ const ap = new APlayer({
     lrcType: 1,
     audio: [
       {
+        name: 'Play',
+        artist: 'K-391,Alan Walker,Tungevaag,Mangoo',
+        url: 'http://ws.stream.qqmusic.qq.com/C400002tD7MA2eB1IL.m4a?guid=228439855&vkey=BF873AD0DCAE71BF4B4CF262D2AE617003525BE9392985703F913560DCC839EB3E8CBBE6A308F8D3876B6C3E63FEC1BD1F6614B76FE0891F&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004fuaT34IGT0b.jpg',
+        lrc: '[00:00.00]Play - K-391/Alan Walker/Tungevaag/Mangoo\n[00:00.34]Lyrics by：?yvind Sauvik/Mattias Brann/Martin Tungevaag/Alexander Standal Pavelich/Halvor Folstad\n[00:00.99]Composed by：K-391/Alan Walker/Mattias Brann/Martin Tungevaag/James Njie/Edvard Normann/Kristoffer Haugan/Anders Fr?en/Alexander Standal Pavelich/Halvor Folstad/?yvind Sauvik\n[00:02.24]Vocals by：Torine Michelle Bj?land\n[00:02.48]Backing Vocals by：Torine Michelle Bj?land\n[00:02.78]Vocal Production by：STATE\n[00:02.98]Produced by：K-391/Alan Walker/Tungevaag/Mangoo\n[00:03.38]Co-production：James Njie/STATE/Skinny Days\n[00:03.73]Additional Production：Mood Melodies/Omar Omrani\n[00:04.03]Executive Produced by：Gunnar Greve\n[00:04.28]Performed by：K-391/Alan Walker/Tungevaag/Mangoo/Torine Michelle Bj?land\n[00:04.82]Programming by：K-391/Mangoo/Alan Walker/Tungvaag/James Njie/STATE/Mood Melodies/Halvor Folstad\n[00:05.57]Instruments by：Edvard Normann (guitar)\n[00:05.82]Recorded at：MER Studios, Uranienborgveien 1 Studio, Skippergata 28 Studio (Oslo, Norway)\n[00:06.42]Mixed by：S?ren von Malmborg at Basecamp Studios, Stockholm\n[00:06.87]Mastering by：S?ren von Malmborg at Cosmos Mastering, Stockholm\n[00:08.81]We used to hide under the covers\n[00:13.21]Serenade each other with careless melodies\n[00:19.72]Something buried deep inside us\n[00:22.46]The major and the minor\n[00:24.84]We’re like piano keys\n[00:27.24]You played for me\n[00:31.78]You played for me\n[00:36.47]You played for me\n[00:38.27]I swear it\n[00:39.18]Even in my sleep I hear it\n[00:41.51]Like the memory of every thing we used to be\n[00:46.02]You played for me\n[00:55.50]You played for me\n[01:05.12]You played for me\n[01:08.96]We couldn’t stop the world from turning\n[01:12.04]It was like a whirlwind\n[01:14.28]Scattered us like leaves\n[01:18.54]But I’m stuck inside a feeling\n[01:21.20]The song that never leaves\n[01:23.11]We were like a symphony\n[01:26.19]You played for me\n[01:30.59]You played for me\n[01:35.32]You played for me\n[01:37.07]I swear it\n[01:37.99]Even in my sleep I hear it\n[01:40.36]Like the memory of every thing we used to be\n[01:44.83]You played for me\n[01:54.38]You played for me\n[02:03.64]You played for me\n[02:07.61]You and me\n[02:09.76]You and me me\n[02:12.11]You and me me\n[02:17.00]You and me\n[02:19.20]You and me me\n[02:21.53]You and me\n[02:22.27]You played for me\n[02:33.50]I swear it\n[02:34.35]Even in my sleep I hear it\n[02:36.78]Like the memory of every thing we used to be\n[02:41.49]You played for me'
+      },
+      {
+        name: 'On My Way',
+        artist: 'Alan Walker,Sabrina Carpenter,Farruko',
+        url: 'http://223.111.154.150/amobile.music.tc.qq.com/C400000NgBjP4PclJ1.m4a?guid=781506402&vkey=8A91385CA884B105D556E43CC4EBC73791C82AA2004295F0C6A401D3C869751DC3BF47529B4B5BEC5F7D727D9A9EAB38BCDA349143EF6F13&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pNm0n06EIlk.jpg',
+        lrc: '[00:00.00]On My Way - Alan Walker (艾伦·沃克)/Sabrina Carpenter (莎布琳娜·卡潘特)/Farruko (Carlos Efrén Reyes Rosado)\n[00:00.04]Lyrics by：Julia Karlsson/Anton Rundberg/Jesper Borgen/?yvind Sauvik/Sabrina Carpenter/Farruko/Franklin Martinez/Marcos Perez/Gunnar Greve\n[00:00.08]Composed by：Alan Walker/Anton Rundberg/Julia Karlsson/Jesper Borgen/Anders Fr?en/Fredrik Borch Olsen/Julia Karlsson/Anton Rundberg/Jesper Borgen/?yvind Sauvik/Gunnar Greve/Sabrina Carpenter/Carlos Efrén Reyes Rosado/Franklin Jovani Martinez/Marcos G Perez\n[00:00.13]Sabrina Carpenter：\n[00:00.65]I’m sorry but\n[00:01.45]Don’t wanna talk\n[00:04.66]I need a moment before I go\n[00:08.78]It’s nothing personal\n[00:11.72]I draw the blinds\n[00:13.90]They don’t need to see me cry\n[00:16.57]Cause even if they understand\n[00:19.79]They don’t understand\n[00:23.61]So then when I’m finished\n[00:25.01]I’m all ’bout my business\n[00:26.51]And ready to save the world\n[00:29.23]I’m takin’ my misery\n[00:30.93]Make it my b***h\n[00:31.86]Can’t be everyone’s favourite girl\n[00:34.68]So take aim and fire away\n[00:37.86]I’ve never been so wide awake\n[00:40.74]No nobody but me can keep me safe\n[00:44.45]And I’m on my way\n[00:46.04]The blood moon is on the rise\n[00:48.82]The fire burning in my eyes\n[00:51.97]No nobody but me can keep me safe\n[00:55.82]And I’m on my way\n[00:57.23]Farruko：\n[01:19.29]Lo siento mucho pero me voy\n[01:25.02]Por que a tu lado me di cuenta que nada so\n[01:30.36]Y me cansé de luchar y de guerrear en van\n[01:33.18]De estar en la línea de fuego y de meter la mano\n[01:36.17]Acepto mis errores también soy humano\n[01:39.17]Y tu no vez que lo Hago por que te amo\n[01:42.25]Pero ya no tengo mas na’ que hacer aquí\n[01:46.94]Me voy llego la hora de partir\n[01:49.83]En mi propio camino seguiré lejos de ti\n[01:53.47]Sabrina Carpenter：\n[01:53.70]So take aim and fire away\n[01:56.94]I’ve never been so wide awake\n[01:59.85]No nobody but me can keep me safe\n[02:03.49]And I’m on my way\n[02:05.07]The blood moon is on the rise\n[02:08.04]The fire burning in my eyes\n[02:11.17]No nobody but me can keep me safe\n[02:14.98]And I’m on my way\n[02:26.55]And I’m on my way\n[02:28.68]So I’ve never been\n[02:30.78]Nobody\n[02:31.58]Keep me safe\n[02:32.71]And I’m on my way\n[02:34.31]So I’ve never been\n[02:36.41]Nobody\n[02:37.19]Keep me safe\n[02:38.43]And I’m on my way\n[02:39.92]So I’ve never been\n[02:42.02]Nobody\n[02:42.79]Keep me safe\n[02:44.07]And I’m on my way\n[02:45.60]So I’ve never been\n[02:47.67]Nobody\n[02:48.43]Nobody\n[02:49.12]On my way\n[02:49.97]Sabrina Carpenter：\n[02:50.29]So take aim and fire away\n[02:53.36]I’ve never been so wide awake\n[02:56.35]No nobody but me can keep me safe\n[02:59.93]And I’m on my way\n[03:01.69]The blood moon is on the rise\n[03:04.40]The fire burning in my eyes\n[03:07.43]No nobody but me can keep me safe\n[03:11.36]And I’m on my way'
+      },
+      {
+        name: 'End Of The Night (Explicit)',
+        artist: 'Danny Avila',
+        url: 'http://111.62.210.17/amobile.music.tc.qq.com/C400003f48LW2qGaqT.m4a?guid=229443338&vkey=54A2518DD8116DA8ED5B571940F105E99268BF3B3C1E0941F61468A39DCD37ADCB76BC99F4D5B74B200C09A7F31F7799A3C77C7B31C83865&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004FNqNM0pQ3go.jpg',
+        lrc: '[00:00.00]End Of The Night (Explicit) - Danny Avila\n[00:03.26]Lyrics by：Dallas Koehlke/Chloe Angelides/Asia Whiteacre\n[00:06.53]Composed by：Dallas Koehlke/Chloe Angelides/Asia Whiteacre\n[00:09.80]I don’t wanna come out strange\n[00:12.04]Excuse the look on my face I’m\n[00:14.55]Tryin’ my best to behave\n[00:17.91]Ohhhhmm\n[00:19.29]Is it gonna sound cliche\n[00:21.53]Feel like we should be closer\n[00:24.22]Tommorow I wanna know ya\n[00:28.93]I don’t wanna know what you’re drinking\n[00:31.14]I just wanna know what you’re thinking\n[00:33.44]At the end of the night\n[00:34.79]At the end of the night\n[00:35.83]At the end of the night\n[00:38.51]I don’t wanna stand up again\n[00:40.56]Show me everything that you’re feeling\n[00:42.78]At the end of the night\n[00:44.07]At the end of the night\n[00:45.35]At the end of the night\n[00:46.95]F**k all of the small talk\n[00:49.63]Give me all the real stuff\n[00:51.44]Let’s start\n[00:52.70]At the end of the night\n[00:53.57]At the end of the night\n[00:54.94]At the end of the night\n[00:56.53]Tell me all your secrets\n[00:58.87]Kiss me like you mean it\n[01:00.88]Let’s start\n[01:02.34]At the end of the night\n[01:03.55]At the end of the night\n[01:04.65]At the end of the night\n[01:06.01]At the end of the night\n[01:16.40]Oh ooh\n[01:18.79]Ah yeah\n[01:21.07]Oh ooh\n[01:26.40]Don’t know how long I’ve been waiting\n[01:28.52]For change my life conversation\n[01:31.55]Could you change my life\n[01:33.85]Could you do it tonight\n[01:35.95]Excuse my f**king impatience\n[01:37.87]I’m just trynna get you naked\n[01:41.26]Body to mind\n[01:43.52]Your body to mind\n[01:45.71]I don’t wanna know what you’re drinking\n[01:47.80]I just wanna know what you’re thinking\n[01:50.13]At the end of the night\n[01:51.37]At the end of the night\n[01:52.58]At the end of the night\n[01:55.29]I don’t wanna stand up again\n[01:57.30]Show me everything that you’re feeling\n[01:59.70]At the end of the night\n[02:00.90]At the end of the night\n[02:02.12]At the end of the night\n[02:03.71]F**k all of the small talk\n[02:05.94]Give me all the real stuff\n[02:08.32]Let’s start\n[02:09.36]At the end of the night\n[02:10.48]At the end of the night\n[02:11.71]At the end of the night\n[02:13.19]Tell me all your secrets\n[02:15.55]Kiss me like you mean it\n[02:17.94]Let’s start\n[02:18.97]At the end of the night\n[02:20.13]At the end of the night\n[02:21.32]At the end of the night\n[02:22.54]At the end of the night\n[02:27.99]Oh ooh\n[02:32.65]Oh ooh\n[02:35.63]Ah yeah\n[02:37.89]Oh ooh\n[02:42.13]F**k all of the small talk\n[02:44.37]Give me all the real stuff\n[02:46.81]Let’s start\n[02:47.95]Ye yea yeah\n[02:49.88]Let’s start\n[02:51.68]Tell me all your secrets\n[02:53.90]Kiss me like you mean it\n[02:56.39]Let’s start\n[02:58.83]Let’s start\n[03:00.41]Ohhhhh\n[03:04.93]Oh ooh\n[03:11.58]Oh ooh\n[03:14.35]Ah yeah\n[03:21.45]Oh ooh'
+      },
+      {
+        name: 'Run Free (Radio Edit)',
+        artist: 'Deep Chills,IVIE',
+        url: 'http://111.62.210.25/amobile.music.tc.qq.com/C400003JrF2w4VJR0i.m4a?guid=667246301&vkey=133A746E8731185F265BF993A0A5864AB5ADD2C656DA4DA260DB6B3FB1ECADCF260EF7641CE2C444A4EC64046F516681F9B4AD8C1B76188B&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000ymxoj3bzUFm.jpg',
+        lrc: '[00:00.00]Run Free (自由奔跑) (Radio Edit) - Deep Chills/IVIE\n[00:01.41]I still remember\n[00:02.78]Loving the danger\n[00:05.33]You set me on fire\n[00:07.34]When I’m by your side\n[00:09.20]You taking me higher\n[00:12.65]I follow you down\n[00:13.80]If we go down\n[00:15.33]Now you say you wanna get away\n[00:16.77]You wanna take me all the way\n[00:20.01]Might get burned\n[00:22.16]If you get too closer\n[00:24.10]To the sun\n[00:24.90]I want yah\n[00:26.30]We can burn together\n[00:28.24]Fading into one another\n[00:31.86]Ooooh\n[00:35.46]Oh don’t you know\n[00:37.98]You’re still heaven to me\n[00:41.11]Baby we could run free\n[00:43.27]If you do it just the way I like\n[00:46.11]Maybe I could waste my time on you\n[00:49.33]Never mind all our worries\n[00:51.90]If you do it just the way I like\n[00:55.75]Maybe I could waste my time on you\n[00:58.93]My deepest of secrets\n[01:22.19]Trust you to keep ’em\n[01:24.48]Hiding the worlds\n[01:26.86]You cannot say\n[01:28.43]I got what you wanted\n[01:31.57]I got what you needed\n[01:34.02]It’s all in the way\n[01:36.38]That you say my name\n[01:37.82]Might get burned\n[01:41.48]If you get too closer\n[01:43.28]To the sun\n[01:44.12]I want yah\n[01:45.62]We can burn together\n[01:47.50]Fading into one another\n[01:51.02]Ooooh\n[01:54.59]Well don’t you know\n[01:57.06]You’re still heaven to me\n[01:59.80]Baby we could run free\n[02:02.15]If you do it just the way I like\n[02:05.30]Maybe I could waste my time on you\n[02:08.45]Never mind all our worries\n[02:11.17]If you do it just the way I like\n[02:14.97]Maybe I could waste my time on you\n[02:18.14]If you do it just the way I like\n[02:34.29]Maybe I could waste my time on you\n[02:37.31]Never mind all our worries\n[02:39.92]If you do it just the way I like\n[02:43.73]Maybe I could waste my time on you'
+      },
+      {
+        name: 'Light',
+        artist: 'San Holo',
+        url: 'http://ws.stream.qqmusic.qq.com/C400002vWeZA2BqwHM.m4a?guid=502260788&vkey=941BE8C22A6E10A2573927919E761542E089780FA14E4218370554CAA4FDAA5CDD835936203D372EB727EEC92F695466C19F4374215378CC&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004WLmjg32gmET.jpg',
+        lrc: '[00:00.01]Light (光亮) - San Holo\n[00:00.02]Written by：Sander Van Dijck/Tessa Douwstra/Arie Storm\n[00:00.03]Just wanna see\n[00:01.55]I just wanna see the light\n[00:02.73]I just wanna see\n[00:04.82]I just wanna see the light\n[00:05.89]I just wanna see\n[00:07.99]I just wanna see the light\n[00:09.07]I just wanna see the light\n[00:11.31]Even if it makes me blind\n[00:28.88]I just wanna see the light\n[00:30.59]Breathing leave it all behind\n[00:34.67]I just wanna see the light\n[00:36.88]Even if it makes me blind\n[00:41.40]I just wanna see the light\n[00:43.12]Breathing leave it all behind\n[00:47.47]I just wanna see the light\n[00:49.69]I just wanna see the light\n[01:05.94]I just wanna see the light\n[01:07.42]I just wanna see the light\n[01:09.08]I just wanna see the light\n[01:10.20]Light light light light light light light\n[01:13.23]I just wanna see the light\n[01:16.80]I just wanna see the light\n[01:41.02]Even if it makes me blind\n[01:58.07]I just wanna see the light\n[01:59.93]Breathing leave it all behind\n[02:04.29]I just wanna see the light\n[02:06.40]Even if it makes me blind\n[02:10.69]I just wanna see the light\n[02:12.73]Breathing leave it all behind\n[02:17.15]I just wanna see the light\n[02:19.09]Even if it makes me blind\n[02:23.62]I just wanna see the light\n[02:25.69]Breathing leave it all behind\n[02:29.99]I just wanna see the light\n[02:32.00]I just wanna see the light\n[02:35.62]I just wanna see the light\n[02:37.13]I just wanna see the light\n[02:38.69]I just wanna see the light\n[02:40.31]Light light light light light light light\n[02:42.90]I just wanna see the light\n[02:46.47]I just wanna see the light\n[03:10.57]I just wanna see\n[03:13.60]I just wanna see the light\n[03:14.86]I just wanna see\n[03:16.94]I just wanna see the light\n[03:18.07]I just wanna see\n[03:20.05]I just wanna see the light\n[03:21.19]I just wanna see the light\n[03:23.31]I just wanna see the light\n[03:36.12]Even if it makes me blind\n[03:40.56]Even if it makes me blind'
+      },
+      {
+        name: 'EuroDancer',
+        artist: 'Klave',
+        url: 'http://ws.stream.qqmusic.qq.com/C400003Jllk335sKL4.m4a?guid=118385573&vkey=959A08A0414E7035680ECE242F58EFF6A53C3E54A6C9A04ACF5DF979ABF38844B10AFF19410532D212CAD32A851CD2A5F738C19B996DB3DD&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002bGFpF0CL0uc.jpg',
+        lrc: '[00:00.00] 纯音乐'
+      },
+      {
+        name: 'Boomerang',
+        artist: 'Brooks,GRX',
+        url: 'http://ws.stream.qqmusic.qq.com/C4000014qutR2RRdRz.m4a?guid=275794498&vkey=EA14D9D709681BCCF594C1D0B1B1698469ED17F27C73343A80101A8369D004EC1B83168B113BF7CF23A3990C3353EC4DAE2968FE62B5A95E&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004d5WMk4dej85.jpg',
+        lrc: '[00:00.00] 纯音乐'
+      },
+      {
+        name: 'Yosemite',
+        artist: '热死人',
+        url: 'http://ws.stream.qqmusic.qq.com/C40000063DA834QyqA.m4a?guid=406282732&vkey=8CD1547F2176AA2420C99D5011EB31F5C9E3474868B1F57D9D40E34527BDCABFC00E5DD5FA4CBC846A64BEBE00DB500CC828FD7563D59D1F&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001wGkw21JbIYh.jpg',
+        lrc: '[00:00.00] 纯音乐'
+      },
+      {
         name: 'Umbrella (Remix)',
         artist: 'Matte',
-        url: 'http://223.111.104.152/amobile.music.tc.qq.com/C4000000onWh2HvZtu.m4a?guid=228472070&vkey=AEE8FF54C3E4CB233311B52363D0AFE04E282BE88DCBD4895655036494F64E885FE1FF20CDA10A094652EADEC288163D39A8FCB7165FB311&uin=0&fromtag=66',
+        url: 'http://ws.stream.qqmusic.qq.com/C4000000onWh2HvZtu.m4a?guid=798368059&vkey=EFBB3D48E3D9133C6570C085E3EB48D5563670AB09CC242614ED8CC105EB044FA3D455E03016748E6F3D9DBE07034B7A1E7302B11A786C37&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001ZlIW129YZ2C.jpg',
         lrc: '[00:00.72]Umbrella (Remix) - Matte\n[00:12.02]You have my heart\n[00:14.25]We’ll never be worlds apart\n[00:17.21]Maybe in magazines\n[00:20.33]But you’ll still be my star\n[00:23.20]Baby ’cause in the dark\n[00:26.25]You can’t see shiny cars\n[00:29.50]And that’s when you need me there\n[00:32.26]With you I’ll always share\n[00:35.69]Because\n[00:37.41]When the sun shines we’ll shine together\n[00:40.43]Told you I’d be here forever\n[00:43.40]Said I’ll always be a friend\n[00:46.24]Took an oath I’ma stick it out ’til the end\n[00:49.41]Now that it’s raining more than ever\n[00:52.50]Know that we’ll still have each other\n[00:55.53]You can stand under my umbrella\n[00:58.55]You can stand under my umbrella\n[01:01.89]Ella ella eh eh eh\n[01:05.46]Under my umbrella\n[01:07.63]Ella ella eh eh eh\n[01:11.66]Under my umbrella\n[01:13.73]Ella ella eh eh eh\n[01:17.46]Under my umbrella\n[01:19.74]Ella ella eh eh eh eh\n[01:47.33]You can stand under my umbrella\n[01:50.12]Ella ella eh eh eh\n[01:53.97]Under my umbrella\n[01:56.12]Ella ella eh eh eh\n[02:00.06]Under my umbrella\n[02:02.21]Ella ella eh eh eh\n[02:06.20]Under my umbrella\n[02:08.25]Ella ella eh eh eh eh\n[02:13.58]These fancy things will never come in between\n[02:18.61]You’re part of my entity here for infinity\n[02:24.79]When the war has took it’s part\n[02:27.69]When the world has dealt it’s cards\n[02:31.13]If the hand is hard together we’ll mend your heart\n[02:37.45]Because\n[02:39.00]When the sun shines we’ll shine together\n[02:41.89]Told you I’d be here forever\n[02:44.81]Said I’ll always be a friend\n[02:47.60]Took an oa that I’ma stick it out ’til the end\n[02:50.76]Now that it’s raining more than ever\n[02:53.88]Know that we’ll still have each other\n[02:56.98]You can stand under my umbrella\n[03:00.06]You can stand under my umbrella\n[03:03.05]Ella ella eh\n[03:07.13]Under my umbrella\n[03:09.09]Ella ella eh\n[03:12.58]You can stand under my umbrella\n[03:15.16]Ella ella eh\n[03:19.29]Under my umbrella\n[03:21.49]Ella ella eh eh eh eh eh eh\n[04:15.11]It’s raining\n[04:17.27]Oh baby it’s raining\n[04:19.63]You can always come here to me\n[04:24.07]Come here to me\n[04:27.21]It’s raining\n[04:29.32]Oh baby it’s raining\n[04:31.96]You can always come here to me\n[04:36.09]Come here to me'
       },
@@ -173,105 +229,105 @@ const ap = new APlayer({
         artist: 'Tonton,Mura Masa',
         url: 'http://isure.stream.qqmusic.qq.com/C400002wnrzI17ug62.m4a?guid=857453082&vkey=E02501BDD03FC27B82EF77FABD7AA0A5464B72B50FB48AB7FD343927F9DAFEFC533B0B47C362B9F087D864C177479C6CD231B1CCFA405D9F&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004QnLpn0Rjg2p.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'NCS Style Mix',
         artist: 'HOPE T',
         url: 'http://ws.stream.qqmusic.qq.com/C400003wzGlk4QiFY1.m4a?guid=623084757&vkey=B12944F89717D3C70E6BF705BC5190C90A8B8288B38128ABD9FCF806AE5F0BA0044937B4BD371127FAE42CB5AF0F1F714DF0ED161301CD84&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000011S9a7258fIl.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Faded (Interlude)',
         artist: 'Alan Walker',
         url: 'http://223.111.104.151/amobile.music.tc.qq.com/C400000HcUKk1flRp2.m4a?guid=333269497&vkey=F7CBA30E5AD45AEFA90FFFA43033D6C50F7377548E39E3EA074488FB619B75F8F4203869F2921A14F1C5BF38810FF87FC7E8621DE6599E27&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000049de8x3025G8.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Intro',
         artist: 'Alan Walker',
         url: 'http://isure.stream.qqmusic.qq.com/C400002GzkYf3XegES.m4a?guid=794080379&vkey=B4CEC15AFB93C5F1E488219D02715A5EF11F7AAA12BABE3E685D9F55EA1EEBD473A24B604BB6CD772CB7CDA65DF50759E2F63D32A14C151F&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000049de8x3025G8.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Intro',
         artist: 'The xx',
         url: 'http://ws.stream.qqmusic.qq.com/C400002m6jgZ2IfCdL.m4a?guid=309505319&vkey=C96AE612FBDBBC04F785569BEB7A37AA9F77583718D2498B90E67FF4F5D4EE2B0DBAFB56DCD06257CBFFFFD5058D857953965D8DF912033E&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001ayzkJ0cso5l.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Victory',
         artist: 'Two Steps From Hell',
         url: 'http://223.111.104.152/amobile.music.tc.qq.com/C4000007PYjm3hucqb.m4a?guid=963474495&vkey=1CF853B61BF65551ED9194267AF6FD135258B35F159CF293536C4D246AFD89358A88CC95FA8F05A89A5917AE9F381CFB4B64BC7642474A15&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002hKKCC1LSc8y.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Faded (Interlude)',
         artist: 'Alan Walker',
         url: 'http://ws.stream.qqmusic.qq.com/C400000HcUKk1flRp2.m4a?guid=342550512&vkey=07AC820FBB00E55BE7C73AAA438F09C2FC0C79AB59165BAF283185383A11AA139753260DF037F6281E8ECD5925FBC10FAC01F266E6DE70A8&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000049de8x3025G8.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Frisbee',
         artist: 'Ahxello',
         url: 'http://ws.stream.qqmusic.qq.com/C400002MDdtJ2uAxuG.m4a?guid=272527971&vkey=4FB64600C5F58E79EE9FB454E79A974A18A2127CC00382D15570395214EDF3D49ECF775EF47A9655326F85F9D44BB8EE1FA735A1BDCD4D19&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003c9dwU4W9o7V.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Force',
         artist: 'Alan Walker',
         url: 'http://223.111.104.154/amobile.music.tc.qq.com/C400000x5Qlw0dX9Lm.m4a?guid=472558902&vkey=A5E8C158B9E6F50E45E89FB326FC60FB36684F476F13CB7FC5C508AF4B35B246EE651D84C9886BC434DC39527227F4A614914476A030422C&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003rpu1B3gZbNT.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Fade',
         artist: 'Alan Walker',
         url: 'http://ws.stream.qqmusic.qq.com/C400003XaoG40fD0iE.m4a?guid=781966766&vkey=FED6EAD9313E368A8BE0502FF16C02EEBA7EFC2A636A684DEE9FC2771DD3DA3E6CDE9E5E6CA812CFCDCD9D63C6A963B622B3636D8559BFED&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M00000472CVU4VP4I3.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Routine',
         artist: 'Alan Walker',
         url: 'http://223.111.154.160/amobile.music.tc.qq.com/C40000230WOI162JSI.m4a?guid=540231109&vkey=21F627B3E039019BA31E8C9927560232F1241CB458045C4C262111CAB857B2B63CE1F8402CF44C63738A46C63EC9804A48658CAEA033CCFF&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004dyKzU4gENFh.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Spectre',
         artist: 'Alan Walker',
         url: 'http://ws.stream.qqmusic.qq.com/C400004JTTeY0zeJSz.m4a?guid=995691971&vkey=13DF98D0A38DE5EAFBA85B7005367CE670397FF87F767855EAC2C6357A68A9BBA8C2CD2A16321A790A8B708BE6359368A8FC72E6501397ED&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003Q0oCr17Waiu.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Morning Energy',
         artist: 'Tobu',
         url: 'http://223.111.154.152/amobile.music.tc.qq.com/C400000dcmWQ3Hzqay.m4a?guid=881382248&vkey=B5A1B8004AD6CB43B6CDBA190DA73105F44EB0B568699522A57682D8191F1DAFB8729310D557CC31F7911546E0C2FF8D8E2BC50E794DFB51&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T001R300x300M000003l8tiY1To0yR.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Feelings',
         artist: '迪丽娜尔,Alan Walker',
         url: 'http://ws.stream.qqmusic.qq.com/C400000SsGSc1UzxPH.m4a?guid=735643336&vkey=0AAFAA6C2475DDAC4E8F3ECC2513B8CFCAB937B21E7ED2550A9915FDC4F7904A22B0AB1DC1345B185FDA003ADFFAC44FA21AB6A7782C309B&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000005f0wt4D6roY.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'World Of Walker',
         artist: 'Alan Walker',
         url: 'http://111.62.210.12/amobile.music.tc.qq.com/C4000015SyH71zIzI3.m4a?guid=389326782&vkey=4344E3E05CABAC0BC5F027926A9511B525FADB33CA84C61982F7CB11E5967A1E1F03BEAEA5819424B352FC1AC10F7ADEB3F7636DC3558843&uin=0&fromtag=66',
         cover: 'https://y.gtimg.cn/music/photo_new/T001R300x300M0000020PeOh4ZaCw1.jpg',
-        lrc: '[00:00.00] 无效歌词'
+        lrc: '[00:00.00] 纯音乐'
       },
       {
         name: 'Higher',
