@@ -119,7 +119,7 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uD9w1s.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/02/uddcWQ.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uBWzm6.gif">
-<meta property="og:updated_time" content="2019-10-04T04:53:10.082Z">
+<meta property="og:updated_time" content="2019-10-04T15:20:45.300Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅谈梯度下降法">
 <meta name="twitter:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$） 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
@@ -483,13 +483,17 @@
 <p>然后，我们知道切线是什么了，但是下一步要怎么做呢？</p>
 <p>我可以告诉你：某点的切线的斜率就是该点的导数！（上面百度百科也有提到）</p>
 <p>那什么是斜率呢？</p>
-<p>某一条线的斜率就是对于横坐标倾斜程度的量，我们通常用一条公式来表示以两个点（假设我们这里是$A$和$B$）构成的直线的斜率：</p>
+<p>某一条直线的斜率就是对于横坐标倾斜程度的量，我们通常用一条公式来表示以两个点（假设我们这里是$A$和$B$）构成的直线的斜率：</p>
 <script type="math/tex; mode=display">k=\frac{y_B-y_A}{x_B-x_A}</script><p><img src="https://s2.ax1x.com/2019/10/04/uB57uR.png" alt></p>
 <p>或者说是直线与横轴相交所形成的夹角的正切值：</p>
 <script type="math/tex; mode=display">k=\tan\alpha</script><p><img src="https://s2.ax1x.com/2019/10/02/uUbheP.png" alt></p>
+<p>东西有点多啊，我们把这几个概念组合起来成为一句话吧：</p>
+<blockquote>
+<p><strong>函数</strong>的某个点的<strong>切线</strong>是一条<strong>直线</strong>，它的<strong>斜率</strong>就是这个函数在这个点的<strong>导数</strong></p>
+</blockquote>
 <p>如果说只给你一个点$a$，求函数$f(x)$在这个点的导数，用第二个公式会比较麻烦，相对来说第一个公式会比较简单。</p>
 <p>但是，我们只有一个点啊！</p>
-<p>没事，我们只需要取两个点，使他们十分接近，然后再计算斜率，就可以了。</p>
+<p>没事，我们只需要取两个点，使他们十分接近，然后再计算他们所构成的直线的斜率，就可以了。</p>
 <p>假如说两个点的横坐标的差是$p$，那么套进式子：</p>
 <script type="math/tex; mode=display">k=\frac{y_B-y_A}{x_B-x_A}</script><script type="math/tex; mode=display">k\approx\frac{f(a+p)-f(a)}{(a+p)-a}</script><script type="math/tex; mode=display">k\approx\frac{f(a+p)-f(a)}{p}</script><p>当$p$趋近于$0$，$k$的值就会越精确，即$k=\lim\limits_{p\to0}\frac{f(a+p)-f(a)}{p}$。</p>
 <h3 id="梯度是什么"><a href="#梯度是什么" class="headerlink" title="梯度是什么"></a>梯度是什么</h3><blockquote>
@@ -515,8 +519,8 @@
 <p>然后，怎么求$\nabla f(old)$呢？</p>
 <p>你需要先知道定义，$\nabla f(a_1,a_2,\dots,a_n)=(\frac{\partial f}{\partial a_1},\frac{\partial f}{\partial a_2},\dots,\frac{\partial f}{\partial a_n})$。</p>
 <p>然后，你肯定会说：这$\frac{\partial f}{\partial a_1}$又是个啥啊？</p>
-<p>$\frac{\partial f}{\partial a_1}$是函数$f$对变量$a_1$的偏导数。</p>
-<p>它意味着，把函数$f$里的其他变量（除$a_1$外的变量）当做常数，然后再对函数求导。</p>
+<p>$\frac{\partial f}{\partial a_1}$是函数$f$对变量$a_1$的<a href="https://baike.baidu.com/item/%E5%81%8F%E5%AF%BC%E6%95%B0/5536984?fr=aladdin" target="_blank" rel="noopener">偏导数</a>。</p>
+<p>$\frac{\partial f}{\partial a_1}$意味着，把函数$f$里的其他变量（除$a_1$外的变量）当做常数，然后再对函数求导。</p>
 <p>类似的，$\frac{\partial \text{函数}}{\partial \text{变量}}$指把<code>函数</code>里非<code>变量</code>的其他变量当做常数，然后再对函数求导。</p>
 <p>如果你还不能明白，我举一个例子：</p>
 <p>假如有这么一个函数：</p>
@@ -524,8 +528,8 @@
 <script type="math/tex; mode=display">\frac{\partial f}{\partial x}=\frac{\partial}{\partial x}(x^2)+\frac{\partial}{\partial x}(5xy)+\frac{\partial}{\partial x}(z^3)</script><p>此时$x^2$的导数是$2x$；$y$是常数，通过公式$f(x)=Cx,f’(x)=C$可以得出$\frac{\partial}{\partial x}(5xy)=5y$；$z^3$是常数，常数的导数是$0$。</p>
 <p>所以得出：</p>
 <script type="math/tex; mode=display">\frac{\partial f}{\partial x}=\frac{\partial}{\partial x}(x^2)+\frac{\partial}{\partial x}(5xy)+\frac{\partial}{\partial x}(z^3)=2x+5y+0=2x+5y</script><p>同理可得：</p>
-<script type="math/tex; mode=display">\frac{\partial f}{\partial y}=\frac{\partial}{\partial y}(x^2)+\frac{\partial}{\partial y}(5xy)+\frac{\partial}{\partial y}(z^3)=0+5x+0=5x</script><script type="math/tex; mode=display">\frac{\partial f}{\partial z}=\frac{\partial}{\partial z}(x^2)+\frac{\partial}{\partial z}(5xy)+\frac{\partial}{\partial z}(z^3)=0+0+3z^2=3z^2</script><p>所以<script type="math/tex">\nabla f(x,y,z)=(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})=(2x+5y,5x,3z^2)</script></p>
-<h2 id="实战问题"><a href="#实战问题" class="headerlink" title="实战问题"></a>实战问题</h2><p>让我们来做几道练习题：</p>
+<script type="math/tex; mode=display">\frac{\partial f}{\partial y}=\frac{\partial}{\partial y}(x^2)+\frac{\partial}{\partial y}(5xy)+\frac{\partial}{\partial y}(z^3)=0+5x+0=5x</script><script type="math/tex; mode=display">\frac{\partial f}{\partial z}=\frac{\partial}{\partial z}(x^2)+\frac{\partial}{\partial z}(5xy)+\frac{\partial}{\partial z}(z^3)=0+0+3z^2=3z^2</script><p>所以</p>
+<script type="math/tex; mode=display">\nabla f(x,y,z)=(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})=(2x+5y,5x,3z^2)</script><h2 id="实战问题"><a href="#实战问题" class="headerlink" title="实战问题"></a>实战问题</h2><p>让我们来做几道练习题：</p>
 <h3 id="入门难度"><a href="#入门难度" class="headerlink" title="入门难度"></a>入门难度</h3><blockquote>
 <p>使用梯度下降法求$x^2$最小时的$x$值。</p>
 </blockquote>
@@ -638,7 +642,7 @@
   <p><span>本文标题:</span><a href="/2019/浅谈梯度下降法/">浅谈梯度下降法</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
   <p><span>发布时间:</span>2019年10月04日 - 13:10</p>
-  <p><span>最后更新:</span>2019年10月04日 - 12:10</p>
+  <p><span>最后更新:</span>2019年10月04日 - 23:10</p>
   <p><span>原始链接:</span><a href="/2019/浅谈梯度下降法/" title="浅谈梯度下降法">http://2005czq.github.io/2019/浅谈梯度下降法/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/浅谈梯度下降法/" aria-label="复制成功！"></i></span>
   </p>
@@ -1219,7 +1223,7 @@ if(canvas.getContext){
       <div class="footer-inner">
         ﻿<div class="theme-info">
   <div class="powered-by"></div>
-  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共24.8k字</span>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共24.9k字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
