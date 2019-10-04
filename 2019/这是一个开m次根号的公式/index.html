@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="RioBlu &amp; King">
 <meta property="og:description" content="$By\ King$ 十分抱歉，上周发烧了，没有写博客。 我会尽量在国庆补回来 今天来讲一下我发现的一个开根号公式">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-28T06:15:01.378Z">
+<meta property="og:updated_time" content="2019-10-04T05:29:31.735Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="这是一个开m次根号的公式">
 <meta name="twitter:description" content="$By\ King$ 十分抱歉，上周发烧了，没有写博客。 我会尽量在国庆补回来 今天来讲一下我发现的一个开根号公式">
@@ -245,6 +245,16 @@
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-link"></i> <br>
+            
+            友链
           </a>
         </li>
       
@@ -436,7 +446,16 @@
 <p>所以原本的式子就变成了</p>
 <script type="math/tex; mode=display">n=a^m+max(a^{m-2}+x^{m-2})</script><script type="math/tex; mode=display">b=max(a^{m-2}+x^{m-2})</script><script type="math/tex; mode=display">\frac{b}{ma}=x(a^{m-2}+x^{m-2})</script><script type="math/tex; mode=display">\frac{b}{ma}=xa^{m-2}+x^{m-1}</script><p>然后因为$x^{m-1}$也很小，那么也扔掉，最后</p>
 <script type="math/tex; mode=display">\frac{b}{ma}=xa^{m-2}</script><script type="math/tex; mode=display">x=\frac{b}{ma^{m-1}}</script><p>所以</p>
-<script type="math/tex; mode=display">\sqrt[m]{n}=a+x</script><script type="math/tex; mode=display">\sqrt[m]{n}=a+\frac{b}{ma^{m-1}}</script><h2 id="其他开根号的方法"><a href="#其他开根号的方法" class="headerlink" title="其他开根号的方法"></a>其他开根号的方法</h2><p>有牛顿迭代法、手算（夹逼法？）、以及一种神奇的开平方根的卡马克开方法，但是卡马克开方法只适用于计算机（如果是人算就算了吧）</p>
+<script type="math/tex; mode=display">\sqrt[m]{n}=a+x</script><script type="math/tex; mode=display">\sqrt[m]{n}=a+\frac{b}{ma^{m-1}}</script><h2 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h2><p><code>Update 2019.10.4</code></p>
+<p>十分感谢@jacky567 给出了一个改进后的方法。</p>
+<p>当我们算出$a+\frac{b}{ma^{m-1}}$后，他已经接近$\sqrt[m]{n}$了。</p>
+<p>因为我们说了，$|b|$越小越好，那么$a+\frac{b}{ma^{m-1}}$代入公式中的$a$，那么$b$就会更小，这时我们再迭代计算一遍，这个值就会更接近于$\sqrt[m]{n}$。</p>
+<p>举个例子$\sqrt{2}$：</p>
+<blockquote>
+<script type="math/tex; mode=display">2=1^2+1,\sqrt{2}\approx1+\frac{1}{2}=1.5</script><script type="math/tex; mode=display">2=(1.5)^2+(-0.25),\sqrt{2}\approx1.5+\frac{-0.25}{3}=\frac{17}{12}=1.41\dot6</script><script type="math/tex; mode=display">2=(\frac{17}{12})^2+(-\frac{1}{144}),\sqrt{2}\approx\frac{17}{12}-\frac{1}{408}=\frac{577}{408}=1.414\dot215686274509803\dot9</script><script type="math/tex; mode=display">\dots</script></blockquote>
+<p>以此类推，你会发现他的精确度越来越高。（$94.2809\%\to99.8268\%\to99.9998\%%$）</p>
+<p>那么只要你一直算下去，他就会更接近于$\sqrt{2}$。</p>
+<h2 id="其他开根号的方法"><a href="#其他开根号的方法" class="headerlink" title="其他开根号的方法"></a>其他开根号的方法</h2><p>有牛顿迭代法、手算（夹逼法？）、无穷连分数近似法、以及一种神奇的开平方根的卡马克开方法，但是卡马克开方法只适用于计算机（如果是人算就算了吧）。</p>
 <p>这些以后有时间再讲（又开了一个新坑）</p>
 <script type="math/tex; mode=display">\Huge The\ End.</script>
       
@@ -458,7 +477,7 @@
   <p><span>本文标题:</span><a href="/2019/这是一个开m次根号的公式/">这是一个开m次根号的公式</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
   <p><span>发布时间:</span>2019年09月28日 - 14:09</p>
-  <p><span>最后更新:</span>2019年09月28日 - 14:09</p>
+  <p><span>最后更新:</span>2019年10月04日 - 13:10</p>
   <p><span>原始链接:</span><a href="/2019/这是一个开m次根号的公式/" title="这是一个开m次根号的公式">http://2005czq.github.io/2019/这是一个开m次根号的公式/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/这是一个开m次根号的公式/" aria-label="复制成功！"></i></span>
   </p>
@@ -656,7 +675,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -678,7 +697,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-count">22</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -692,7 +711,7 @@
             <div class="links-of-author motion-element">
                 
                   <span class="links-of-author-item">
-                    <a href="https://2005czq.github.io/2019/Hello-World/#3-如何联系我们" target="_blank" title="联系我们">
+                    <a href="https://2005czq.github.io/2019/Hello-World/#如何联系我们" target="_blank" title="联系我们">
                       
                         <i class="fa fa-fw fa-phone-square"></i>联系我们</a>
                   </span>
@@ -1020,7 +1039,7 @@ if(canvas.getContext){
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#灵感来源"><span class="nav-number">1.</span> <span class="nav-text">灵感来源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#举个栗子"><span class="nav-number">2.</span> <span class="nav-text">举个栗子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推导"><span class="nav-number">3.</span> <span class="nav-text">推导</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他开根号的方法"><span class="nav-number">4.</span> <span class="nav-text">其他开根号的方法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#灵感来源"><span class="nav-number">1.</span> <span class="nav-text">灵感来源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#举个栗子"><span class="nav-number">2.</span> <span class="nav-text">举个栗子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推导"><span class="nav-number">3.</span> <span class="nav-text">推导</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Update"><span class="nav-number">4.</span> <span class="nav-text">Update</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他开根号的方法"><span class="nav-number">5.</span> <span class="nav-text">其他开根号的方法</span></a></li></ol></div>
             
 
           </div>
@@ -1043,7 +1062,7 @@ if(canvas.getContext){
       <div class="footer-inner">
         ﻿<div class="theme-info">
   <div class="powered-by"></div>
-  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共20.4k字</span>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共24.8k字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
