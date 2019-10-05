@@ -101,13 +101,13 @@
 
 
 
-<meta name="description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$） 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
+<meta name="description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
 <meta name="keywords" content="人工智能,导数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="浅谈梯度下降法">
 <meta property="og:url" content="http://2005czq.github.io/2019/浅谈梯度下降法/index.html">
 <meta property="og:site_name" content="RioBlu &amp; King">
-<meta property="og:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$） 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
+<meta property="og:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uBRVCd.jpg">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/01/uUT4dU.png">
@@ -119,10 +119,10 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uD9w1s.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/02/uddcWQ.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uBWzm6.gif">
-<meta property="og:updated_time" content="2019-10-04T15:20:45.300Z">
+<meta property="og:updated_time" content="2019-10-05T04:04:32.595Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅谈梯度下降法">
-<meta name="twitter:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$） 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
+<meta name="twitter:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
 <meta name="twitter:image" content="https://s2.ax1x.com/2019/10/04/uBRVCd.jpg">
 
 
@@ -425,7 +425,7 @@
 
       
         <p>$By\ King$</p>
-<p>最近在搞手写数字的识别（好难啊$QAQ$）</p>
+<p>最近在搞手写数字的识别（好难啊$QAQ$）。</p>
 <p>其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。</p>
 <p><strong>注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。</strong></p>
 <a id="more"></a>
@@ -467,9 +467,11 @@
 <p><img src="https://s2.ax1x.com/2019/10/02/uU7vXq.png" alt></p>
 <p>因为这条绿色的线是匀速增长的（每时每刻都以$1$的速度增长），因此它的导数一定是直的，又因为$f$的增长率是$1$，因此它的导数都是$1$。</p>
 <p>这两个例子告诉我们：某一点的导数是这一点的增长率（变化率）。</p>
-<p>另外，对于其他复杂函数，你需要用到<a href="https://baike.baidu.com/item/%E5%AF%BC%E6%95%B0%E8%A1%A8/10889755?fr=aladdin" target="_blank" rel="noopener">导数表</a>。</p>
+<p>另外，对于其他复杂函数，你需要用到<a href="https://baike.baidu.com/item/%E5%AF%BC%E6%95%B0%E8%A1%A8/10889755?fr=aladdin" target="_blank" rel="noopener">导数表</a>，或者说下面会讲到一个<strong>万能公式</strong>（他抛弃了恶心的导数表）。</p>
 <p>但是，假如你不知道原函数，要怎么求某一个点的导数呢？</p>
-<p>这时，我们需要用到函数的切线。</p>
+<p>这时，我们需要用到函数的<a href="https://baike.baidu.com/item/%E5%88%87%E7%BA%BF/674562?fr=aladdin" target="_blank" rel="noopener">切线</a>。</p>
+<p>那，切线又是什么呢？</p>
+<p>切线就是正好碰到曲线某一点的<strong>直线</strong>。如果在某一点作了切线，那么这个点就叫作这条切线的<strong>切点</strong>。</p>
 <p>刚开始，我一直不能理解，某个点的切线为什么一定要长那样子，而且为什么可以一个点确定一条直线，但后来，我去找了电脑老师（没错你没听错），他通俗的用几句话把它给描述清楚了：</p>
 <blockquote>
 <p>把曲线无限放大</p>
@@ -477,34 +479,38 @@
 <p>就应该是一条直线</p>
 <p>延长这条直线，就是该点的切线</p>
 </blockquote>
-<p>当然，这里我放了一张<code>gif</code>，方便大家理解</p>
+<p>当然，这里我放了一张<code>gif</code>，方便大家理解：</p>
 <p><img src="https://s2.ax1x.com/2019/10/02/uUH58J.gif" alt></p>
 <p>我这里虽然没有无限放大，但是在放大到一定时候，曲线就会近似于直线。</p>
 <p>然后，我们知道切线是什么了，但是下一步要怎么做呢？</p>
 <p>我可以告诉你：某点的切线的斜率就是该点的导数！（上面百度百科也有提到）</p>
 <p>那什么是斜率呢？</p>
-<p>某一条直线的斜率就是对于横坐标倾斜程度的量，我们通常用一条公式来表示以两个点（假设我们这里是$A$和$B$）构成的直线的斜率：</p>
+<p>某一条直线的斜率就是对于横坐标倾斜程度的量，我们通常用一条公式来表示以两个点（假设我们这里是$A$和$B$）构成的直线的斜率$k$：</p>
 <script type="math/tex; mode=display">k=\frac{y_B-y_A}{x_B-x_A}</script><p><img src="https://s2.ax1x.com/2019/10/04/uB57uR.png" alt></p>
 <p>或者说是直线与横轴相交所形成的夹角的正切值：</p>
 <script type="math/tex; mode=display">k=\tan\alpha</script><p><img src="https://s2.ax1x.com/2019/10/02/uUbheP.png" alt></p>
 <p>东西有点多啊，我们把这几个概念组合起来成为一句话吧：</p>
 <blockquote>
-<p><strong>函数</strong>的某个点的<strong>切线</strong>是一条<strong>直线</strong>，它的<strong>斜率</strong>就是这个函数在这个点的<strong>导数</strong></p>
+<p><strong>函数</strong>的某个点的<strong>切线</strong>是一条<strong>直线</strong>，这条切线的<strong>斜率</strong>就是这个函数在这个点的<strong>导数</strong>。</p>
 </blockquote>
-<p>如果说只给你一个点$a$，求函数$f(x)$在这个点的导数，用第二个公式会比较麻烦，相对来说第一个公式会比较简单。</p>
+<p>如果说只给你一个点$a$，求函数$f(x)$在这个点的导数，而且你并不知道$f(x)$的表达式，用第二个公式会比较麻烦，相对来说第一个公式会比较简单。</p>
 <p>但是，我们只有一个点啊！</p>
 <p>没事，我们只需要取两个点，使他们十分接近，然后再计算他们所构成的直线的斜率，就可以了。</p>
 <p>假如说两个点的横坐标的差是$p$，那么套进式子：</p>
 <script type="math/tex; mode=display">k=\frac{y_B-y_A}{x_B-x_A}</script><script type="math/tex; mode=display">k\approx\frac{f(a+p)-f(a)}{(a+p)-a}</script><script type="math/tex; mode=display">k\approx\frac{f(a+p)-f(a)}{p}</script><p>当$p$趋近于$0$，$k$的值就会越精确，即$k=\lim\limits_{p\to0}\frac{f(a+p)-f(a)}{p}$。</p>
+<p>记住这个公式！这个公式可以抛弃求导，因此我叫它<strong>万能公式</strong>。</p>
 <h3 id="梯度是什么"><a href="#梯度是什么" class="headerlink" title="梯度是什么"></a>梯度是什么</h3><blockquote>
 <p>梯度的本意是一个<a href="https://baike.baidu.com/item/%E5%90%91%E9%87%8F/1396519" target="_blank" rel="noopener">向量</a>，表示某一函数在该点处的方向导数沿着该方向取得最大值，即函数在该点处沿着该方向（此梯度的方向）变化最快，变化率最大（为该梯度的模）。——<a href="https://baike.baidu.com/item/%E6%A2%AF%E5%BA%A6/13014729" target="_blank" rel="noopener">百度百科</a></p>
 </blockquote>
+<p>向量又是个啥啊？</p>
+<p>向量代表着一个方向，它具有方向和大小，或者说你可以当它是具有方向的线段。（就类似于你在$QQ$截图里拉箭头那样）</p>
 <p>梯度正好符合我们开头所讲的，使变化最快对应着下山要走最陡的地方变化才快。</p>
 <p>记住，梯度是一个向量！<del>（要考的）</del></p>
 <h3 id="开始理解梯度下降"><a href="#开始理解梯度下降" class="headerlink" title="开始理解梯度下降"></a>开始理解梯度下降</h3><p>这里是整个梯度下降的核心公式：</p>
-<script type="math/tex; mode=display">\large new=old-\alpha \nabla f(old)</script><p>主要意思是：新的坐标等于旧的坐标减去旧坐标的函数的梯度。</p>
+<script type="math/tex; mode=display">\large new=old-\alpha \nabla f(old)</script><p>主要意思是：新的坐标等于旧的坐标减去旧坐标的函数的<strong>梯度</strong>。</p>
 <p>这就很符合上面我们所说的下山。你新的站立点是你旧的站立点减去你每步的长度乘上下山的方向。</p>
 <p><img src="https://s2.ax1x.com/2019/10/04/uDS8gI.png" alt></p>
+<p>这图画的什么意思啊？别急，继续往下看。</p>
 <p>只要一直计算$new$的值，然后带进$old$再算出$new$的值，如此循环下去，$new$就会变成$f$函数的最低点。</p>
 <p><img src="https://s2.ax1x.com/2019/10/04/uD9w1s.png" alt></p>
 <p>另外，在梯度下降刚开始时，我们可以随便找几个随机数作为初值，然后通过这些随机数去计算。</p>
@@ -520,11 +526,12 @@
 <p>你需要先知道定义，$\nabla f(a_1,a_2,\dots,a_n)=(\frac{\partial f}{\partial a_1},\frac{\partial f}{\partial a_2},\dots,\frac{\partial f}{\partial a_n})$。</p>
 <p>然后，你肯定会说：这$\frac{\partial f}{\partial a_1}$又是个啥啊？</p>
 <p>$\frac{\partial f}{\partial a_1}$是函数$f$对变量$a_1$的<a href="https://baike.baidu.com/item/%E5%81%8F%E5%AF%BC%E6%95%B0/5536984?fr=aladdin" target="_blank" rel="noopener">偏导数</a>。</p>
-<p>$\frac{\partial f}{\partial a_1}$意味着，把函数$f$里的其他变量（除$a_1$外的变量）当做常数，然后再对函数求导。</p>
-<p>类似的，$\frac{\partial \text{函数}}{\partial \text{变量}}$指把<code>函数</code>里非<code>变量</code>的其他变量当做常数，然后再对函数求导。</p>
-<p>如果你还不能明白，我举一个例子：</p>
+<p>偏导数又是啥？</p>
+<p>偏导数指把某个函数里非某个变量的其他变量当做常数，然后再对这个函数求导。</p>
+<p>它表示为$\frac{\partial \text{函数}}{\partial \text{变量}}$。例如<br>$\frac{\partial f}{\partial a_1}$意味着，把函数$f$里的其他变量（除$a_1$外的变量）当做常数，然后再对函数求导。</p>
+<p>如果你还不能明白，我再举一个例子：</p>
 <p>假如有这么一个函数：</p>
-<script type="math/tex; mode=display">f(x,y,z)=x^2+5xy+z^3</script><p>所以</p>
+<script type="math/tex; mode=display">f(x,y,z)=x^2+5xy+z^3</script><p>所以：</p>
 <script type="math/tex; mode=display">\frac{\partial f}{\partial x}=\frac{\partial}{\partial x}(x^2)+\frac{\partial}{\partial x}(5xy)+\frac{\partial}{\partial x}(z^3)</script><p>此时$x^2$的导数是$2x$；$y$是常数，通过公式$f(x)=Cx,f’(x)=C$可以得出$\frac{\partial}{\partial x}(5xy)=5y$；$z^3$是常数，常数的导数是$0$。</p>
 <p>所以得出：</p>
 <script type="math/tex; mode=display">\frac{\partial f}{\partial x}=\frac{\partial}{\partial x}(x^2)+\frac{\partial}{\partial x}(5xy)+\frac{\partial}{\partial x}(z^3)=2x+5y+0=2x+5y</script><p>同理可得：</p>
@@ -552,8 +559,8 @@
 <p>其实很简单，例如$(1,2)-(1.2,0.5)$就是分别相减，即$(1-1.2,2-0.5)=(-0.2,1.5)$。</p>
 <p>那么，开始计算了。（$\alpha=0.2,(x,y)=(10,10)$）</p>
 <p>由于我太懒了，直接贴代码吧：</p>
-<p><code>C++</code>代码：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">double</span> x=<span class="number">10</span>,y=<span class="number">10</span>,st=<span class="number">0.2</span>;<span class="comment">//初始化</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">51</span>;i++)&#123;<span class="comment">//随便迭代个51次</span></span><br><span class="line">		x=x-st*<span class="number">2</span>*x;</span><br><span class="line">		y=y-st*<span class="number">2</span>*(y<span class="number">-1</span>);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%.10lf %.10lf\n"</span>,x,y);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>最后$(x,y)$会趋近于$(0,1)$</p>
+<p><code>C++</code>代码：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">double</span> x=<span class="number">10</span>,y=<span class="number">10</span>,st=<span class="number">0.2</span>;<span class="comment">//初始化</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">51</span>;i++)&#123;<span class="comment">//随便迭代个51次</span></span><br><span class="line">		x=x-st*<span class="number">2</span>*x;<span class="comment">//核心</span></span><br><span class="line">		y=y-st*<span class="number">2</span>*(y<span class="number">-1</span>);<span class="comment">//核心</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%.10lf %.10lf\n"</span>,x,y);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>最后$(x,y)$会趋近于$(0,1)$。</p>
 <p>但是这并没有体现到梯度下降法的强大，因为只要你知道原函数，你一般都可以推导出最小值，来，我们来看一下终极之题。</p>
 <h3 id="NOI-NOI-CTSC"><a href="#NOI-NOI-CTSC" class="headerlink" title="NOI/NOI+/CTSC"></a>NOI/NOI+/CTSC</h3><blockquote>
 <p>已知$f(x)$，用梯度下降法求$f(x)$在最低点的$x$值。</p>
@@ -572,23 +579,28 @@
 <p>这样做的好处有什么？</p>
 <p>对所有函数通用，无需求导数，只要它能给你返回函数值，无论是返回$\sqrt{n}$还是地球在赤道和经度$n^\circ$的海平面高度（这个不能推导出函数表达式），它都可以解决。</p>
 <p>但是也有一个不足的地方，可能会有误差。</p>
+<p>另外，如果$f$里的变量多起来，或者调用一次$f$函数比较耗时的话，速度会降低。（神经网络就是这样，变量又多，调用又耗时）</p>
 <p>同时，如果有多个变量，也是一样的，只要将代码中的：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x=x-st*(f(x+p)-f(x))/p;</span><br></pre></td></tr></table></figure>
 <p>变成</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x1=x1-st*(f(x1+p,x2,x3,...,xn)-f(x1,x2,x3,...,xn))/p;</span><br><span class="line">x2=x2-st*(f(x1,x2+p,x3,...,xn)-f(x1,x2,x3,...,xn))/p;</span><br><span class="line">x3=x3-st*(f(x1,x2,x3+p,...,xn)-f(x1,x2,x3,...,xn))/p;</span><br><span class="line">...</span><br><span class="line">xn=xn-st*(f(x1,x2,x3,...,xn+p)-f(x1,x2,x3,...,xn))/p;</span><br></pre></td></tr></table></figure>
 <p>即可。</p>
+<p>什么？你说你是$P$党？看不懂$C++$代码？</p>
+<p>那我就用数学符号表示吧（前方高能）：</p>
+<p>例如有一个多个变量的函数$f(x,y,z)$，那么：</p>
+<script type="math/tex; mode=display">\nabla f(x,y,z)=(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})</script><script type="math/tex; mode=display">=\lim\limits_{p\to0}(\frac{f(x+p,y,z)-f(x,y,z)}{p},\frac{f(x,y+p,z)-f(x,y,z)}{p},\frac{f(x,y,z+p)-f(x,y,z)}{p})</script><p>有没有一种要晕了的感觉？</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="重温一下"><a href="#重温一下" class="headerlink" title="重温一下"></a>重温一下</h3><p>梯度下降是求一个多元函数的极值（最大值和最小值）的算法。</p>
 <p>它对于所有可求导函数都适用。</p>
 <p>核心公式：</p>
 <script type="math/tex; mode=display">\large new=old-\alpha \nabla f(old)</script><p>主要步骤：</p>
 <ol>
 <li>对原函数求导。</li>
-<li>设定初值$a_1,a_2\dots$（以函数参数个数决定），学习率$\alpha$（和切线斜率精度$p$，如果你能对函数求导，那就不需要这个了）。</li>
+<li>设定初值$a_1,a_2\dots$（以函数参数个数决定），学习率$\alpha$（和切线斜率精度$p$，如果你能对函数求导，那就不需要设置这个了）。</li>
 <li>设置迭代次数$i$。</li>
 <li>开始下降（套入核心公式）。</li>
 </ol>
 <p>最后讲一下时间复杂度：$O(nm)$（$n$指函数的变量个数，$m$指的是迭代次数）</p>
-<p>如果是上面的那个“万能方法”，则可能会更耗时一点。</p>
+<p>如果是上面的那个“万能方法”，则可能会更耗时一点，具体看函数调用一次的时间。</p>
 <p>空间复杂度$O(n)$（$n$指函数的变量个数）。</p>
 <p>优点：</p>
 <ul>
@@ -618,8 +630,7 @@
 <li>迭代次数多</li>
 <li>容易卡$bug$，例如卡在函数的<a href="https://baike.baidu.com/item/%E9%9E%8D%E7%82%B9/251306?fr=aladdin" target="_blank" rel="noopener">鞍点</a>（即一个方向看这个点是最小值，另一个方向看是最大值，如下图，只看红色的线）<img src="https://s2.ax1x.com/2019/10/04/uBWzm6.gif" alt><br>（图源<a href="https://www.cnblogs.com/huangyc/p/9801261.html" target="_blank" rel="noopener">此处</a>）</li>
 </ul>
-<h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>宣传博客：<a href="https://2005czq.github.io">https://2005czq.github.io</a>。</p>
-<p>什么？你说你没有听懂？欢迎提问！</p>
+<h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>什么？你说你没有听懂？欢迎提问！</p>
 <p><a href="https://wpa.qq.com/msgrd?v=3&amp;uin=3376299315" target="_blank" rel="noopener">$QQ3376299315$</a></p>
 <p>另外如果文章有什么问题欢迎各位大佬指正，如果有什么漏掉的也欢迎各位大佬补充！</p>
 
@@ -642,7 +653,7 @@
   <p><span>本文标题:</span><a href="/2019/浅谈梯度下降法/">浅谈梯度下降法</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
   <p><span>发布时间:</span>2019年10月04日 - 13:10</p>
-  <p><span>最后更新:</span>2019年10月04日 - 23:10</p>
+  <p><span>最后更新:</span>2019年10月05日 - 12:10</p>
   <p><span>原始链接:</span><a href="/2019/浅谈梯度下降法/" title="浅谈梯度下降法">http://2005czq.github.io/2019/浅谈梯度下降法/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/浅谈梯度下降法/" aria-label="复制成功！"></i></span>
   </p>
@@ -1223,7 +1234,7 @@ if(canvas.getContext){
       <div class="footer-inner">
         ﻿<div class="theme-info">
   <div class="powered-by"></div>
-  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共24.9k字</span>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共25.2k字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
