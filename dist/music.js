@@ -50,13 +50,6 @@ const ap = new APlayer({
         lrc: '[00:00.00]So Long (feat. Madi) (再见) - Slushii/Madi\n[00:26.79]It was the year\n[00:28.22]I didn’t check the terms and conditions of your heart dear\n[00:32.04]You wrote out your song that swept into the summer of it all\n[00:37.66]It was the time your momma warned us all you were gone\n[00:44.85]She told me love had fixed you turned you wrong\n[00:47.62]That winter you were calling out your song song oh\n[00:52.78]You know I want the best in you\n[01:36.36]Hey boy give me back your love\n[01:39.71]Won’t you hinder to my heart and we sit among the stars\n[01:45.57]The stars ooh yeah ooh yeah\n[01:52.53]Stars\n[01:55.77]It was the time your momma warned us all you were gone\n[02:04.88]She told me love had fixed you turned you wrong\n[02:07.03]That winter you were calling out your song\n[02:10.22]Let’s go\n[02:12.50]Song oh'
       },
       {
-        name: 'Sound of Walking Away',
-        artist: 'ILLENIUM,Kerli',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/5721fa665d933ae35995e97036b44933.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000oSoeP1Dim2k.jpg',
-        lrc: '[00:00.00]Sound of Walking Away (决然离开的声音) - ILLENIUM/Kerli\n[00:13.05]I’ve been quiet aside you\n[00:15.81]While my heart in my chest shouts\n[00:22.93]Feeling silenced and lied to\n[00:26.50]But enough is enough now\n[00:33.47]Don’t come find me I won’t be here waiting\n[00:43.77]I so can do it alone you’re not worth staying\n[00:54.57]Weren’t listening but now there’s no way you won’t hear\n[01:00.16]There’s a voice emerging in the night so loud and clear\n[01:05.40]I’ll turn it up like you turn me down I’m not afraid\n[01:10.95]Hit play hit play\n[01:13.56]It’s the sound of walking away\n[01:16.00]It’s the sound of walking away\n[01:26.64]It’s the sound of walking away\n[01:37.22]It’s the sound of walking away\n[01:58.74]I’ve been drowning inside you\n[02:02.46]While my love it just pours out\n[02:09.48]I’ve been running behind you\n[02:13.23]But enough is enough now\n[02:20.11]Don’t come find me I won’t be here waiting\n[02:30.41]I so can do it alone you’re not worth staying\n[02:41.18]Weren’t listening but now there’s no way you won’t hear\n[02:46.77]There’s a voice emerging in the night so loud and clear\n[02:51.97]I’ll turn it up like you turn me down I’m not afraid\n[02:57.53]Hit play hit play\n[03:00.34]It’s the sound of walking away\n[03:02.64]It’s the sound of walking away\n[03:13.33]It’s the sound of walking away'
-      },
-      {
         name: 'Alan Walker - Faded Alone (Albim Mashup)',
         artist: 'Jming',
         url: 'http://stor.cloudmusics.cn/mp3/2019/10/dbc5fb552f5caa049ce211fced6e7989.m4a',
@@ -64,60 +57,39 @@ const ap = new APlayer({
         lrc: '[00:00.29]Alan Walker - Faded Alone (Albim Mashup) - Jming\n[00:01.14]Written by：Alan Walker/Jesper Borgen/Anders Froen/Gunnar Greve Pettersen\n[00:01.74]You were the shadow to my light\n[00:16.43]Did you feel us\n[00:18.86]Another star you fade away\n[00:23.81]Afraid our aim is out of sight\n[00:27.17]Wanna see us alight\n[00:32.47]I see apart but still together\n[00:39.30]I feel anything for you\n[00:44.67]I see apart but still together\n[00:49.76]I feel\n[00:53.50]I know I’m not alone\n[00:56.38]At least we are together\n[01:00.39]Under the sea\n[01:01.71]I know I know\n[01:05.65]Apart but still together\n[01:11.24]The monster’s running wild inside of me\n[01:15.47]I’m faded\n[01:17.17]Under the sea\n[01:23.48]I know I know\n[01:26.83]Apart but still together\n[01:32.13]The monster’s running wild inside of me\n[01:36.70]I’m faded'
       },
       {
-        name: '追梦赤子心',
-        artist: 'GALA',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/0682e3a4f2aa28a76f668b1683e44e97.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003uDUds09qQHp.jpg',
-        lrc: '[00:00.00]追梦赤子心 (《那年那兔那事儿 第一季》动画片尾曲) - GALA (旮旯)\n[00:03.80]词：苏朵\n[00:07.61]曲：苏朵\n[00:11.41]编曲：甘虎\n[00:15.22]充满鲜花的世界到底在哪里\n[00:21.26]如果它真的存在那么我一定会去\n[00:28.72]我想在那里最高的山峰矗立\n[00:34.20]不在乎它是不是悬崖峭壁\n[00:41.81]用力活着用力爱哪怕肝脑涂地\n[00:47.89]不求任何人满意只要对得起自己\n[00:55.41]关于理想我从来没选择放弃\n[01:00.82]即使在灰头土脸的日子里\n[01:07.48]也许我没有天分\n[01:10.84]但我有梦的天真\n[01:14.19]我将会去证明用我的一生\n[01:20.86]也许我手比较笨\n[01:24.14]但我愿不停探寻\n[01:27.53]付出所有的青春不留遗憾\n[01:34.51]向前跑 迎着冷眼和嘲笑\n[01:40.78]生命的广阔不历经磨难怎能感到\n[01:47.46]命运它无法让我们跪地求饶\n[01:54.56]就算鲜血洒满了怀抱\n[02:01.17]继续跑 带着赤子的骄傲\n[02:07.45]生命的闪耀不坚持到底怎能看到\n[02:14.52]与其苟延残喘不如纵情燃烧吧\n[02:22.49]有一天会再发芽\n[02:28.77]未来迷人绚烂总在向我召唤\n[03:01.27]哪怕只有痛苦作伴也要勇往直前\n[03:08.69]我想在那里最蓝的大海扬帆\n[03:14.55]绝不管自己能不能回还\n[03:20.76]失败后郁郁寡欢\n[03:24.13]那是懦夫的表现\n[03:27.51]只要一息尚存请握紧双拳\n[03:34.10]在天色破晓之前\n[03:37.46]我们要更加勇敢\n[03:40.72]等待日出时最耀眼的瞬间\n[03:47.97]向前跑 迎着冷眼和嘲笑\n[03:53.99]生命的广阔不历经磨难怎能感到\n[04:00.79]命运它无法让我们跪地求饶\n[04:07.89]就算鲜血洒满了怀抱\n[04:14.53]继续跑 带着赤子的骄傲\n[04:20.77]生命的闪耀不坚持到底怎能看到\n[04:27.50]与其苟延残喘不如纵情燃烧吧\n[04:35.65]为了心中的美好\n[04:42.42]不妥协直到变老'
+        name: 'Limitless',
+        artist: 'Sam F,Sophie Rose',
+        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020C9EBCB5FE-36d6dc5926b17006.mp3',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001P3iiN1yuFxN.jpg',
+        lrc: '[00:00.00]Limitless (无限制) - Sam F/Sophie Rose\n[00:06.28]Written by：Linsey Saunders/Meron Ryan/Sam Fishman/Sophie Rose\n[00:12.57]Moonlight burning in our eyes\n[00:14.67]We are we are\n[00:17.27]Too high for the better life\n[00:20.45]We’re stars we’re stars\n[00:23.53]Lay your head down forget your worries\n[00:27.45]This is where where we belong\n[00:30.56]Moonlight burning in our eyes\n[00:33.80]We are we are\n[00:36.10]Caught in a daydream holding onto something\n[00:40.16]Just beyond our fingertips\n[00:42.06]Stuck in a feeling love the heavy breathing\n[00:46.23]I can taste it on my lips\n[00:48.15]Limitless\n[00:51.79]Burning up the sky all the night\n[00:54.32]Limitless\n[00:57.26]Wanna feel the fire let me take you high\n[01:00.70]Limitless ooh ooh\n[01:06.60]Limitless ooh ooh\n[01:12.49]Limitless limitless limitless\n[01:32.53]Starlight in our impulsive night\n[01:40.63]We are we are\n[01:43.40]Children of different kind\n[01:46.61]We’re stars we’re stars\n[01:49.66]Listen to the rhythm of the heartbeat\n[01:53.81]Let the sound ignite your soul\n[01:56.55]Starlight in our impulsive night\n[01:59.41]We are we are\n[02:02.25]Caught in a daydream holding onto something\n[02:06.11]Just beyond our fingertips\n[02:08.13]Stuck in a feeling love the heavy breathing\n[02:12.40]I can taste it on my lips\n[02:14.33]Limitless\n[02:17.94]Burning up the sky all the night\n[02:20.69]Limitless\n[02:23.99]Wanna feel the fire let me take you high\n[02:26.73]Limitless ooh ooh\n[02:32.81]Limitless ooh ooh\n[02:38.96]Limitless limitless limitless\n[02:58.57]We are\n[03:20.83]We are'
       },
       {
-        name: '骄傲的少年',
-        artist: '南征北战NZBZ',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/74290eb9134e9f44f73dd77d04f3dc2f.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002TY2251wLIpu.jpg',
-        lrc: '[00:00.00]骄傲的少年 (《那年那兔那些事儿 第二季》动画片尾曲) - 南征北战NZBZ\n[00:05.65]词：赵辰龙\n[00:11.30]曲：汀洋\n[00:16.95]编曲：汀洋\n[00:22.60]在一开始\n[00:24.18]当初我还是\n[00:26.84]一个天真而又爱哭的孩子\n[00:32.38]十年之后\n[00:35.66]终于才明白\n[00:38.44]只要全力以赴就无所谓失败\n[00:44.05]转眼间\n[00:48.19]一切都已改变\n[00:51.18]新的起点新的世界就在眼前\n[00:56.53]受过伤\n[00:59.85]也流过了眼泪\n[01:02.66]为了梦想疯狂\n[01:04.80]这一次又怎样\n[01:08.36]奔跑吧\n[01:10.67]骄傲的少年\n[01:13.79]年轻的心里面\n[01:16.53]是坚定的信念\n[01:20.39]燃烧吧\n[01:21.91]骄傲的热血\n[01:25.97]胜利的歌我要再唱一遍\n[01:31.81]世界之大\n[01:59.12]总想要去飞\n[02:01.46]就算满身伤痕也不曾后悔\n[02:06.95]无人喝彩\n[02:10.48]依然在期待\n[02:13.41]雨后的彩虹它是那样的精彩\n[02:18.29]转眼间\n[02:22.50]一切都已改变\n[02:25.53]新的起点新的世界就在眼前\n[02:30.85]受过伤\n[02:33.83]也流过了眼泪\n[02:36.76]为了梦想疯狂\n[02:39.06]这一次又怎样\n[02:42.68]奔跑吧\n[02:44.84]骄傲的少年\n[02:48.10]年轻的心里面\n[02:50.80]是坚定的信念\n[02:54.53]燃烧吧\n[02:56.25]骄傲的热血\n[03:00.30]胜利的歌我要再唱一遍\n[03:06.56]如今我整装待发\n[03:07.99]充满正能量\n[03:09.31]学会坚强的面对\n[03:10.81]生命的真相\n[03:12.22]成功或失败不是由结果去衡量\n[03:15.09]挫折和磨难只会让我变得更强\n[03:17.96]经受过屈辱和嘲笑那又怎样\n[03:20.80]胜利的使命仍然背负在我身上\n[03:23.65]年轻的旋律多么自由而奔放\n[03:26.51]放飞你的心\n[03:27.66]勇敢大声唱\n[03:28.91]奔跑吧\n[03:30.47]骄傲的少年\n[03:33.82]年轻的心里面\n[03:36.45]是坚定的信念\n[03:40.16]燃烧吧\n[03:41.95]骄傲的热血\n[03:45.92]胜利的歌我要再唱一遍\n[03:51.80]奔跑吧\n[03:53.38]骄傲的少年\n[03:56.74]年轻的心里面\n[03:59.42]是坚定的信念\n[04:03.10]燃烧吧\n[04:04.83]骄傲的热血\n[04:08.82]胜利的歌我要再唱一遍'
-      },
-      {
-        name: 'Fly Away',
-        artist: 'TheFatRat,Anjulie',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/e514b73913c770d00868d67ff02c2ac1.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M00000202MwY3sXGPC.jpg',
-        lrc: '[00:00.00]Fly Away (飞离) - TheFatRat/Anjulie\n[00:06.65]Written by：Christian Buttner/John Dang\n[00:13.31]Come and fly away with me\n[00:15.71]Come and fly away with me e e e e\n[00:19.90]Come and fly away with me\n[00:22.57]Co co come and fly away with me e e e e e e\n[00:26.36]Come and fly away with me\n[00:28.74]Come and fly away with me e e e e\n[00:32.85]Come and fly away with me\n[00:35.55]Co co come and fly away with me e e e e e e\n[00:39.32]Don’t you be afraid\n[00:40.52]Everything will change\n[00:41.72]You and I\n[00:42.50]Jumping off the edge\n[00:43.65]They say dreamers never die\n[00:45.27]So come and fly\n[00:46.46]Come and fly\n[00:47.27]Come and fly away with me\n[00:50.38]We’re rising we’re falling\n[00:55.30]We’ll make it through\n[00:58.46]We’re climbing we’re soaring\n[01:01.80]A thousand views\n[01:04.85]We’re rising we’re falling\n[01:08.79]We’ll make it through\n[01:11.27]We’re climbing we’re soaring\n[01:14.64]A thousand views\n[01:17.83]Somewhere by the end we’ll see\n[01:36.75]Where the moon and water meet\n[01:39.95]Somewhere close to harmony\n[01:43.30]When the world is sound asleep\n[01:46.46]Something’s gonna bring a change\n[01:49.93]Journeys we are meant to take\n[01:53.00]Something at the edge of space\n[01:56.27]Calling us to fly away\n[01:59.33]Don’t you be afraid\n[02:01.53]Everything will change\n[02:02.74]You and I\n[02:03.58]Jumping off the edge\n[02:04.70]They say dreamers never die\n[02:06.35]So come and fly\n[02:07.54]Come and fly\n[02:08.34]Come and fly away with me\n[02:11.68]We’re rising we’re falling\n[02:16.90]We’ll make it through\n[02:19.75]We’re climbing we’re soaring\n[02:23.26]A thousand views\n[02:26.15]We’re rising we’re falling\n[02:29.43]We’ll make it through\n[02:32.69]We’re climbing we’re soaring\n[02:35.86]A thousand views\n[02:38.52]Come and fly away\n[02:40.33]Come and\n[02:40.73]Come and fly away\n[02:41.91]Come and fly away with me\n[02:45.10]Come and fly away\n[02:46.89]Come and\n[02:47.31]Come and fly away\n[02:48.97]Come and fly away with me\n[02:51.49]Something’s gonna bring a change\n[02:58.52]Journeys we are meant to take\n[03:01.06]Something at the edge of space\n[03:04.34]Calling us to fly away'
-      },
-      {
-        name: 'Jackpot',
-        artist: 'TheFatRat',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/b1148815fc25ca2beef3a2828aa7cc9c.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003oaS2A08mIJi.jpg',
+        name: 'Chat',
+        artist: '天宅',
+        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020CF1277196-cbf7033a02310e88.mp3',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001Oz1S32WcMhX.jpg',
         lrc: '[00:00.00] 纯音乐'
       },
       {
-        name: '征程 (纯歌版)',
-        artist: 'O2O偶像男团,三无Marblue,冥月,颜糙糙',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/6f06b3a6a3f468b428a5b031db5cf6c8.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002VYtms0JXAcm.jpg',
-        lrc: '[00:00.00]征程 (纯歌版) (凹凸世界20P群像) - O2O偶像男团/三无Marblue/冥月/颜糙糙\n[00:02.57]词：温酒\n[00:02.88]曲：谭朝月\n[00:03.27]策划：小狮子\n[00:03.73]编曲：彭轩\n[00:04.12]剧情后期：温酒\n[00:04.67]剧情编剧/片尾BGM：荟小荟\n[00:05.52]和声设计：ShareYoung\n[00:05.99]分轨混音：Gong骏\n[00:06.54]混音：Anony\n[00:06.85]曲绘/PV：猫菇椰汁\n[00:07.47]音乐制作：O2O男团\n[00:08.25]金|演唱：三无MarBlue|配音：连\n[00:09.26]格瑞|演唱：玄羽(玄月sama)|配音：琴且歌\n[00:10.74]紫堂幻|演唱：余夏(朱强)|配音：浮游\n[00:12.22]凯莉|演唱：少年霜|配音：亿口井Dr\n[00:13.55]嘉德罗斯|演唱：醉雪|配音：DKK\n[00:14.71]雷德|演唱：耀璟臣(Yoji)\n[00:15.57]蒙特祖玛|演唱：颜糙糙\n[00:16.43]雷狮|演唱：耀璟臣(Yoji)|配音：林中人\n[00:17.83]卡米尔|演唱：Link(闻人归)|配音：默铃\n[00:19.23]帕洛斯|演唱：司斓(清雅)|配音：倒霉死勒\n[00:20.87]佩利|演唱：Shin(夏耀心)\n[00:21.72]安迷修|演唱：仁一(许任一)|配音：小恒\n[00:23.28]艾比|演唱：小小萱|配音：shourei\n[00:24.37]埃米|演唱：Mini兔(兔阿)\n[00:25.30]丹尼尔|演唱：Assen捷|配音：小白\n[00:26.47]银爵|演唱：棣樋(小T_T-Tone)|配音：泠泉夜月\n[00:28.11]小黑洞|演唱：魏晨夕(尘溪)\n[00:29.20]秋|演唱：檀霊|配音：shourei\n[00:30.13]鬼狐天冲|演唱：Zen(凤冴Sae)|配音：流川鱼\n[00:31.61]莱娜|演唱：冥月\n[00:32.24]搬运人|配音：泠泉夜月\n[00:33.09]神1|配音：薄荷君\n[00:33.79]神2|配音：方小明\n[00:34.49]丹尼尔（Assen捷）：\n[00:35.04]背负公正审判为神旨代言\n[00:42.38]白衣黑星用可能引领无限\n[00:47.55]格瑞（玄羽）：\n[00:49.95]所见皆可斩 刀锋中裹挟执念\n[00:53.54]习惯了缄默无言\n[00:55.41]痛苦一力承担\n[00:57.38]独行于世间\n[00:59.26]温柔被隐匿在视野之外\n[01:03.57]嘉德罗斯（ShareYoung）：\n[01:04.81]以力诠释王之典范\n[01:06.59]以自身为狂妄加冕\n[01:08.60]以无知而无畏擎天 目空一切\n[01:12.11]雷德（和声：蒙特祖玛）/耀璟臣（和声：颜糙糙）：\n[01:12.74]以杀戮为改造起点\n[01:14.32]以爱将心意外点燃\n[01:16.20]以风为方向勇往直前\n[01:19.61]凯莉（少年霜）：\n[01:20.30]月刃滑翔狩猎乐园\n[01:21.82]星镖碰撞末世狂欢\n[01:23.69]天真与恶毒分开两半\n[01:26.81]紫堂幻（余夏）：\n[01:27.62]从召唤中驯服试炼\n[01:29.47]从弱小到打破平凡\n[01:31.38]尝试着比肩\n[01:33.06]金（三无）：\n[01:35.24]曾无忧无虑的少年\n[01:37.08]如今开启征程了吧\n[01:38.96]为苦难里煎熬星辰\n[01:40.92]绽希望之花\n[01:43.04]矢量化身利刃\n[01:44.64]心愿中投影强大\n[01:47.24]这幸福并非唾手可得啊\n[01:50.42]用同伴定义的法则\n[01:52.37]与彼此信任也没差\n[01:54.38]金（和声：紫堂幻）/ 三无（和声：余夏） ：\n[01:54.84]并肩作战才不叫傻瓜\n[01:57.78]格瑞/金（和声：紫堂幻/凯莉）/玄羽/三无（和声：余夏/少年霜）：\n[01:58.48]记忆中嫌弃脸颊\n[02:00.04]终于写成牵绊了吗\n[02:03.59]要携手前行啊\n[03:07.10]没有马却有信仰的剑和铠\n[03:11.71]安迷修（和声：艾比/埃米）/仁一（和声：小小萱/Mini兔）：\n[03:14.68]左手善良右手对邪恶宣战\n[03:19.55]鬼狐（ZEN）：\n[03:22.29]自定义棋盘 操纵与能言善辩\n[03:25.76]面具下遮蔽的眼\n[03:27.64]蛊惑潜藏危险\n[03:29.37]莱娜（冥月）：\n[03:29.99]环抱的双肩\n[03:31.58]已注定的结局可还情愿\n[03:35.39]雷狮（耀璟臣）：\n[03:37.31]以放肆立宇宙之巅\n[03:38.97]以狡诈寻自由航线\n[03:40.83]王子到海盗的极端 堕落甘甜\n[03:44.27]卡米尔（LINK）：\n[03:44.87]以理智规划出未来\n[03:46.56]以忠诚为夺冠铺垫\n[03:48.47]以信任做他唯一弱点\n[03:51.75]佩利（SHIN）：\n[03:52.38]底层杀出大道平坦\n[03:54.17]亡命之徒长成狂犬\n[03:56.16]斗不过被愚弄的缺陷\n[03:59.28]帕洛斯（司斓）：\n[04:00.20]从镌刻贪婪到习惯\n[04:01.86]从微笑编织出假面\n[04:03.61]生存即正确\n[04:05.64]合：\n[04:07.65]有强力者所向披靡\n[04:09.53]有末位到第一逆袭\n[04:11.36]有英雄的赛场之上\n[04:13.30]从不缺奇迹\n[04:15.36]有梦埋在心底\n[04:17.09]为实现至死不渝\n[04:19.82]有斗志昂扬不认输的你\n[04:22.41]秋/黑洞/丹尼尔：\n[04:23.07]察觉所谓规则秘密\n[04:24.69]不过取悦创世神灵\n[04:26.60]光明同黑暗腥风血雨\n[04:30.66]干脆制造场闹剧\n[04:32.57]总好过关在镜子里\n[04:35.94]一轮轮重启\n[04:37.86]全：\n[04:38.09]命运该掌握在自己\n[04:39.97]怎么能按剧本演绎\n[04:41.95]拒绝打发时间的游戏\n[04:45.66]不反抗才徒留笑柄\n[04:47.61]不如赌一把未知的局\n[04:51.19]最多一败涂地'
-      },
-      {
-        name: '【镜音日文】二次死亡(Second Life)',
-        artist: '著小生zoki',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/fc8490c9b6b72101fd6a345a75473ff6.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000012ebFT45XJyz.jpg',
+        name: 'melon',
+        artist: 'Ocha',
+        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020D4E795D6B-b211ce0da2355a42.mp3',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000u54NR3L88aM.jpg',
         lrc: '[00:00.00] 纯音乐'
       },
       {
-        name: 'Red Swan',
-        artist: 'Yoshiki,HYDE',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/483012e5b3f9c026bb30af516fd13934.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001HmsWA2VrDSM.jpg',
-        lrc: '[00:00.53]Red Swan (《进击的巨人 第三季》TV动画片头曲) - Yoshiki/HYDE\n[00:04.06]词：YOSHIKI\n[00:04.50]曲：YOSHIKI\n[00:21.49]Like the scarlet night veiling the dark\n[00:29.07]You can hide your fear\n[00:32.94]Can lie my dear\n[00:35.93]このまま 夢を見て\n[00:43.73]血だらけの翼 広げて\n[01:04.72]Like a fallen angel 時の風に\n[01:12.35]流されて 落ちてゆく\n[01:18.56]Into the starry night 女神のように\n[01:27.33]抱きしめて 永遠を\n[01:34.17]Fly into heaven\n[01:38.64]What’s the lie\n[01:42.10]What’s the truth\n[01:45.77]What to believe\n[01:49.39]In my life\n[01:58.34]See the flowers breathing in the rain\n[02:05.69]Try growing to the edge of light\n[02:12.99]It’s so far away to reach out to the sky\n[02:22.02]I’ll seize I’ll seize the roses with my wings\n[02:33.10]We’ll fly\n[03:04.78]Like a fallen angel 時の風に\n[03:12.40]流されて 落ちてゆく\n[03:18.55]Into the starry night 女神のように\n[03:27.36]抱きしめて 永遠を\n[03:34.07]We’ll fly away\n[03:37.57]We’ll find a way\n[03:41.84]You can hide your fear\n[03:45.60]Can lie my dear\n[03:48.45]We’ll see the end\n[03:51.91]We’ll be the end\n[03:56.49]抱きしめて\n[04:00.13]永遠を\n[04:03.18]Fly into heaven'
+        name: 'Can We Kiss Forever',
+        artist: 'Kina',
+        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020C783C5F46-792411896f02e610.mp3',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000w3T1H3s6HI7.jpg',
+        lrc: '[00:00.37]Can We Kiss Forever - Kina\n[00:09.42]I tried to reach you I can’t hide\n[00:13.77]How strong’s the feeling when we dive\n[00:18.16]I crossed the ocean of my mind\n[00:22.69]My wounds are healing with the salt\n[00:26.81]All my senses intensified\n[00:31.16]Whenever you and I we dive\n[00:35.82]I crossed the ocean of my mind\n[00:39.63]But in the end I drown\n[00:41.82]You push me down down\n[01:44.87]All the shame\n[01:52.55]When you called my name\n[02:02.25]I felt pain\n[02:11.00]When you came'
       },
       {
-        name: '六月与萤火虫',
-        artist: '逍遥散人,易言,刘夏俊,YUKIri,Tocci椭奇,兔总裁,脐带老妖,没错我就是惠惠',
-        url: 'http://stor.cloudmusics.cn/mp3/2019/10/2ef1b494b2feeae5a39ffef756b787a2.m4a',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001GmS6q3ewTf9.jpg',
-        lrc: '[00:00.10]六月与萤火虫 - 逍遥散人/易言/刘夏俊/YUKIri/Tocci椭奇/兔总裁/脐带老妖/没错我就是惠惠\n[00:00.20]词：蚂蚁maaaayi\n[00:00.30]曲：夜刀神三月/喜宝Kiho\n[00:00.40]编曲：夜刀神三月/喜宝Kiho\n[00:01.89]出品方：超电文化\n[00:02.11]出品人：Howard\n[00:02.25]总策划：大校\n[00:02.41]监制：yoka\n[00:02.51]策划：小爱\n[00:02.64]宣发：小东\n[00:02.77]统筹：酒楽君\n[00:02.94]制作人：喜宝Kiho\n[00:03.14]和声：fifi/dd\n[00:03.27]混音：UncleBlue\n[00:03.37]母带：高桥良尔（日本）\n[00:03.63]—易言—：\n[00:04.44]淋过雨的操场上残留的声音\n[00:09.94]我们朝着同一个方向说\n[00:13.97]脐带老妖：\n[00:16.16]未来的旅行\n[00:19.89]一定会有更美好的风景\n[00:24.76]我们终将成为期待的自己\n[00:29.28]YUKIri：\n[00:30.58]点不亮的路灯下残留的身影\n[00:36.65]抬起头只剩下一声叹息\n[00:41.06]没错我就是惠惠：\n[00:42.99]未来的旅行\n[00:46.53]如果能看到终点\n[00:48.92]是否可以更不留遗憾的走下去\n[00:55.46]逍遥散人/刘夏俊Jun：\n[00:57.38]就算被这场大雨\n[01:00.19]冲散了彼此的消息\n[01:02.65]Tocci椭奇/兔总裁：\n[01:03.64]乌云掩盖的满天星河\n[01:06.50]总有一个地方存着回忆\n[01:10.59]合：\n[01:12.47]怀念却不敢再重来的\n[01:15.99]那些过去 你闪耀着\n[01:20.06]替代所有颜色\n[01:21.81]都收藏在那些\n[01:23.47]永不积灰的歌\n[01:25.61]曾向萤火虫承诺的心愿\n[01:29.03]如今都实现了吗\n[01:33.31]经过六月的我们\n[01:36.27]在日出前许下了约定\n[01:46.86]逍遥散人：\n[01:55.94]点不亮的路灯下残留的身影\n[02:01.75]抬起头只剩下一声叹息\n[02:06.78]Tocci椭奇/兔总裁：\n[02:07.93]未来的旅行\n[02:11.53]如果能看到终点\n[02:13.95]是否可以更不留遗憾的走下去\n[02:22.26]刘夏俊Jun：\n[02:22.97]就算被这场大雨\n[02:25.24]冲散了彼此的消息\n[02:27.34]——易言——/脐带老妖/YUKIri/没错我就是惠惠：\n[02:28.30]乌云掩盖的满天星河\n[02:31.44]总有一个地方存着回忆\n[02:36.14]合：\n[02:37.17]怀念却不敢再重来的\n[02:41.09]那些过去 你闪耀着\n[02:44.83]替代所有颜色\n[02:46.76]都收藏在那些\n[02:48.42]永不积灰的歌\n[02:50.69]曾向萤火虫承诺的心愿\n[02:54.14]现在都实现了吧\n[02:58.27]背后闪烁的光影\n[03:01.44]能否拼凑被风吹散的约定\n[03:15.54]逍遥散人：\n[03:25.70]怀念却不敢再\n[03:26.91]合：\n[03:27.13]重来的\n[03:29.30]那些过去 你闪耀着\n[03:33.35]替代所有颜色\n[03:35.12]都收藏在那些\n[03:36.72]永不积灰的歌\n[03:39.02]曾向萤火虫承诺的心愿\n[03:42.42]如今都实现了吗\n[03:46.49]经过六月的我们\n[03:49.79]在日出前许下了约定'
+        name: 'Lanterns',
+        artist: 'Xomu',
+        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020D7171A2CD-4f04a0630fcf1718.mp3',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000030lvdT2eIANQ.jpg',
+        lrc: '[00:00.00] 纯音乐'
       }
     ]
 });
