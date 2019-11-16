@@ -101,13 +101,13 @@
 
 
 
-<meta name="description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
+<meta name="description" content="最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
 <meta name="keywords" content="人工智能,导数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="浅谈梯度下降法">
 <meta property="og:url" content="http://2005czq.github.io/2019/浅谈梯度下降法/index.html">
-<meta property="og:site_name" content="RioBlu &amp; King">
-<meta property="og:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
+<meta property="og:site_name" content="King&#39;s Blog">
+<meta property="og:description" content="最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uBRVCd.jpg">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/01/uUT4dU.png">
@@ -119,10 +119,10 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uD9w1s.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/02/uddcWQ.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/10/04/uBWzm6.gif">
-<meta property="og:updated_time" content="2019-10-05T04:04:32.595Z">
+<meta property="og:updated_time" content="2019-11-16T10:19:05.322Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅谈梯度下降法">
-<meta name="twitter:description" content="$By\ King$ 最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
+<meta name="twitter:description" content="最近在搞手写数字的识别（好难啊$QAQ$）。 其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。 注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。">
 <meta name="twitter:image" content="https://s2.ax1x.com/2019/10/04/uBRVCd.jpg">
 
 
@@ -159,7 +159,7 @@
 
 
 
-  <title>浅谈梯度下降法 | RioBlu & King</title>
+  <title>浅谈梯度下降法 | King's Blog</title>
   
 
 
@@ -195,7 +195,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">RioBlu & King</span>
+        <span class="site-title">King's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -337,13 +337,13 @@
     <link itemprop="mainEntityOfPage" href="http://2005czq.github.io/2019/浅谈梯度下降法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="R&K">
+      <meta itemprop="name" content="King">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="RioBlu & King">
+      <meta itemprop="name" content="King's Blog">
     </span>
 
     
@@ -424,8 +424,7 @@
       
 
       
-        <p>$By\ King$</p>
-<p>最近在搞手写数字的识别（好难啊$QAQ$）。</p>
+        <p>最近在搞手写数字的识别（好难啊$QAQ$）。</p>
 <p>其中有个代码中重要的部分是梯度下降，这部分比较难理解，这里给大家介绍一下，顺便写一篇学习笔记吧。</p>
 <p><strong>注意：本文所讲的梯度下降指的是批量梯度下降法（Batch gradient descent），简称BGD。</strong></p>
 <a id="more"></a>
@@ -651,9 +650,9 @@
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <p><span>本文标题:</span><a href="/2019/浅谈梯度下降法/">浅谈梯度下降法</a></p>
-  <p><span>文章作者:</span><a href="/" title="访问 R&K 的个人博客">R&K</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 King 的个人博客">King</a></p>
   <p><span>发布时间:</span>2019年10月04日 - 13:10</p>
-  <p><span>最后更新:</span>2019年10月05日 - 12:10</p>
+  <p><span>最后更新:</span>2019年11月16日 - 18:11</p>
   <p><span>原始链接:</span><a href="/2019/浅谈梯度下降法/" title="浅谈梯度下降法">http://2005czq.github.io/2019/浅谈梯度下降法/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/浅谈梯度下降法/" aria-label="复制成功！"></i></span>
   </p>
@@ -687,22 +686,12 @@
   <div id="QR" style="display: none;">
 
     
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechatpay.png" alt="R&K 微信支付">
-        <p>微信支付</p>
-      </div>
-    
 
-    
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.png" alt="R&K 支付宝支付">
-        <p>支付宝支付</p>
-      </div>
     
 
     
       <div id="bitcoin" style="display: inline-block">
-        <img id="bitcoin_qr" src="/images/qqpay.png" alt="R&K QQ支付">
+        <img id="bitcoin_qr" src="/images/qqpay.png" alt="King QQ支付">
         <p>QQ支付</p>
       </div>
     
@@ -838,9 +827,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="R&K">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="King">
             
-              <p class="site-author-name" itemprop="name">R&K</p>
+              <p class="site-author-name" itemprop="name">King</p>
               <p class="site-description motion-element" itemprop="description">数学 | 人工智能 | Bilibili | 电音</p>
           </div>
 
@@ -851,7 +840,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -862,7 +851,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -873,7 +862,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-count">19</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -887,9 +876,9 @@
             <div class="links-of-author motion-element">
                 
                   <span class="links-of-author-item">
-                    <a href="https://2005czq.github.io/2019/Hello-World/#如何联系我们" target="_blank" title="联系我们">
+                    <a href="https://2005czq.github.io/2019/Hello-World/#如何联系我" target="_blank" title="联系我">
                       
-                        <i class="fa fa-fw fa-phone-square"></i>联系我们</a>
+                        <i class="fa fa-fw fa-phone-square"></i>联系我</a>
                   </span>
                 
                   <span class="links-of-author-item">
@@ -906,7 +895,7 @@
 
           
           
-            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
                 实用网站大全
@@ -918,11 +907,15 @@
                   </li>
                 
                   <li class="links-of-blogroll-item">
+                    <a href="https://www.geogebra.org/" title="函数工具" target="_blank">函数工具</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
                     <a href="https://www.runoob.com/" title="菜鸟教程" target="_blank">菜鸟教程</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://sm.ms/" title="图床" target="_blank">图床</a>
+                    <a href="https://im.sb/" title="高速图床" target="_blank">高速图床</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
@@ -931,6 +924,14 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="http://oeis.org/" title="数列百科全书" target="_blank">数列百科全书</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://tools.miku.ac/" title="百宝工具箱" target="_blank">百宝工具箱</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://maxiang.io/" title="MarkDown编辑器" target="_blank">MarkDown编辑器</a>
                   </li>
                 
               </ul>
@@ -1238,14 +1239,14 @@ if(canvas.getContext){
       <div class="footer-inner">
         ﻿<div class="theme-info">
   <div class="powered-by"></div>
-  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共26.4k字</span>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span class="post-count">博客全站共24.4k字</span>
 </div>
 
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="heart">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">R&K</span>
+  <span class="author" itemprop="copyrightHolder">King</span>
 
 </div>
 <!-- 网站运行时间的设置 -->
