@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>记一次数论研究</title>
+      <link href="/2019/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%95%B0%E8%AE%BA%E7%A0%94%E7%A9%B6/"/>
+      <url>/2019/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%95%B0%E8%AE%BA%E7%A0%94%E7%A9%B6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>快一个月没更新了，主要是因为<del>段测问题</del>懒</p><p>在课间看<code>《思考的乐趣》</code>，发现这么一道有趣的题：</p><blockquote><p>证明或推翻：$x^3+y^4=z^5$没有正整数解</p></blockquote><a id="more"></a><p>然而答案只有一句话：</p><blockquote><p>原命题是错误的。由于$2^{24}+2^{24}=2^{25}$，因此$(2^8)^3+(2^6)^4=(2^5)^5$</p></blockquote><p>一想感觉很多式子都可以用这种方法解决，于是开始捣鼓$x^a+y^b=z^c$的正整数解$(a,b,c\in Z)$</p><p>得出了一条结论：</p><blockquote><p>若$[a,b]$与$c$互质，则$x^a+y^b=z^c$必定有正整数解<br><strong>注：$[a,b]$指$a$和$b$的最小公倍数</strong></p></blockquote><p>证明过程大概是从互质到确定一个不定方程有正整数解，再利用这个解求出$x^a+y^b=z^c$的解</p><p>从互质到确定一个不定方程有正整数解这一部分我想了很久，因为没怎么学过不定方程的知识，最后还是在七年级奥数书里找到了思路</p><p>以下是具体证明（若有错误请提醒订正，大佬轻喷）：<br>$\because[a,b]$与$c$互质<br>$\therefore$由裴蜀定理得$cm+(-[a,b])n=1$必有<strong>整数</strong>解<br>设$m_0,n_0$为$cm+(-[a,b])n=1$的一组整数解<br>$\therefore cm+(-[a,b])n=1$所有整数解为</p><script type="math/tex; mode=display">\begin{cases}n=n_0+ck\\m=m_0+[a,b]k\end{cases}</script><script type="math/tex; mode=display">(k\in Z)</script><p>$\because a,b,c\in Z$<br>$\therefore$由式子得出当$k$足够大时，$n=n_0+ck&gt;0$且$m=m_0+[a,b]k&gt;0$<br>$\therefore cm+(-[a,b])n=1$必有<strong>正整数</strong>解<br>即$[a,b]n+1=cm$有正整数解<br>又$\because a|[a,b]\quad m,n\in Z$<br>$\therefore\frac{cm-1}{a}\in Z,2^m\in Z$<br>$\therefore2^{\frac{cm-1}{a}}\in Z$<br>同理可得$2^{\frac{cm-1}{b}}\in Z$</p><script type="math/tex; mode=display">\Large 2^{cm}=2^{cm}</script><script type="math/tex; mode=display">\Large 2^{cm-1}+2^{cm-1}={(2^m)}^c</script><script type="math/tex; mode=display">\Large {(2^{\frac{cm-1}{a}})}^a+{(2^{\frac{cm-1}{b}})}^b={(2^m)}^c</script><p>$\Large\therefore\begin{cases}x=2^{\frac{cm-1}{a}}\\y=2^{\frac{cm-1}{b}}\\z=2^m\end{cases}$</p><p>证毕</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 裴蜀定理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>记一次研学活动</title>
       <link href="/2019/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A0%94%E5%AD%A6%E6%B4%BB%E5%8A%A8/"/>
       <url>/2019/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A0%94%E5%AD%A6%E6%B4%BB%E5%8A%A8/</url>

@@ -90,7 +90,7 @@
 
 
 
-  <meta name="keywords" content="根号,杨辉三角,">
+  <meta name="keywords" content="裴蜀定理,">
 
 
 
@@ -101,18 +101,18 @@
 
 
 
-<meta name="description" content="十分抱歉，上周发烧了，没有写博客。 今天来讲一下我发现的一个开根号公式">
-<meta name="keywords" content="根号,杨辉三角">
+<meta name="description" content="快一个月没更新了，主要是因为段测问题懒 在课间看《思考的乐趣》，发现这么一道有趣的题：  证明或推翻：$x^3+y^4=z^5$没有正整数解">
+<meta name="keywords" content="裴蜀定理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="这是一个开m次根号的公式">
-<meta property="og:url" content="http://2005czq.github.io/2019/这是一个开m次根号的公式/index.html">
+<meta property="og:title" content="记一次数论研究">
+<meta property="og:url" content="http://2005czq.github.io/2019/记一次数论研究/index.html">
 <meta property="og:site_name" content="King&#39;s Blog">
-<meta property="og:description" content="十分抱歉，上周发烧了，没有写博客。 今天来讲一下我发现的一个开根号公式">
+<meta property="og:description" content="快一个月没更新了，主要是因为段测问题懒 在课间看《思考的乐趣》，发现这么一道有趣的题：  证明或推翻：$x^3+y^4=z^5$没有正整数解">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-11-16T10:31:37.228Z">
+<meta property="og:updated_time" content="2019-12-14T19:33:26.078Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="这是一个开m次根号的公式">
-<meta name="twitter:description" content="十分抱歉，上周发烧了，没有写博客。 今天来讲一下我发现的一个开根号公式">
+<meta name="twitter:title" content="记一次数论研究">
+<meta name="twitter:description" content="快一个月没更新了，主要是因为段测问题懒 在课间看《思考的乐趣》，发现这么一道有趣的题：  证明或推翻：$x^3+y^4=z^5$没有正整数解">
 
 
 
@@ -142,13 +142,13 @@
 
 
 
-  <link rel="canonical" href="http://2005czq.github.io/2019/这是一个开m次根号的公式/">
+  <link rel="canonical" href="http://2005czq.github.io/2019/记一次数论研究/">
 
 
 
 
 
-  <title>这是一个开m次根号的公式 | King's Blog</title>
+  <title>记一次数论研究 | King's Blog</title>
   
 
 
@@ -323,7 +323,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://2005czq.github.io/2019/这是一个开m次根号的公式/">
+    <link itemprop="mainEntityOfPage" href="http://2005czq.github.io/2019/记一次数论研究/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="King">
@@ -340,7 +340,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">这是一个开m次根号的公式</h1>
+          <h1 class="post-title" itemprop="name headline">记一次数论研究</h1>
         
 
         <div class="post-meta">
@@ -353,8 +353,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-28T14:00:00+08:00">
-                2019-09-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-12-15T03:00:00+08:00">
+                2019-12-15
               </time>
             
 
@@ -413,48 +413,27 @@
       
 
       
-        <p>十分抱歉，上周发烧了，没有写博客。</p>
-<p>今天来讲一下我发现的一个开根号公式</p>
+        <p>快一个月没更新了，主要是因为<del>段测问题</del>懒</p>
+<p>在课间看<code>《思考的乐趣》</code>，发现这么一道有趣的题：</p>
+<blockquote>
+<p>证明或推翻：$x^3+y^4=z^5$没有正整数解</p>
+</blockquote>
 <a id="more"></a>
+<p>然而答案只有一句话：</p>
 <blockquote>
-<script type="math/tex; mode=display">\Large n=a^m+b</script><script type="math/tex; mode=display">\Large\sqrt[m]{n}\approx a+\frac{b}{ma^{m-1}}</script></blockquote>
-<p>其中$|b|$越小越好</p>
-<h2 id="灵感来源"><a href="#灵感来源" class="headerlink" title="灵感来源"></a>灵感来源</h2><p>某一天做练习册的时候看到某道题估算某个数的平方根：</p>
-<blockquote>
-<p>$n=a^2+b$<br>假设$\sqrt{n}=a+x(0&lt;x&lt;1)$<br>$n=(a+x)^2$<br>$n=a^2+2ax+x^2$<br>因为$x^2$太小我们直接扔掉，原式变成<br>$x=\frac{b}{2a}$<br>所以$\sqrt{n}\approx a+\frac{b}{2a}$</p>
+<p>原命题是错误的。由于$2^{24}+2^{24}=2^{25}$，因此$(2^8)^3+(2^6)^4=(2^5)^5$</p>
 </blockquote>
-<p>所以就想用类似的方法求$\sqrt[m]{n}$。</p>
-<h2 id="举个栗子"><a href="#举个栗子" class="headerlink" title="举个栗子"></a>举个栗子</h2><p>例如说我们要算$\sqrt{3}$</p>
-<p>然后我们知道$3=2^2+(-1)$</p>
-<p>所以$\sqrt{3}\approx 2+\frac{-1}{2\times2}=1.75$</p>
-<p>但假如我们数字再大一点，会怎么样呢？</p>
-<p>$10001=100^2+1,\sqrt{10001}\approx100+\frac{1}{2\times100}=100.005$</p>
-<p>这已经很接近了！$\sqrt{10001}=100.004999875\dots$，这个公式得到的值准确率有$99.999999875\%$</p>
-<p>假如我们试一下求$\sqrt[100]{2}$的值：$2=1^{100}+1,\sqrt[100]{2}\approx1+\frac{1}{100\times1^{99}}=1.01$，而$\sqrt[100]{2}=1.00695\dots$，准确率有$99.698\%$</p>
-<p>所以我们可以总结出这个公式的优缺点：</p>
-<ul>
-<li>开方数越大越精确</li>
-<li>$m$越大会越不精确（除非开方数大）</li>
-</ul>
-<h2 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h2><p>其实推导也不难，只是纯粹的杨辉三角罢了</p>
+<p>一想感觉很多式子都可以用这种方法解决，于是开始捣鼓$x^a+y^b=z^c$的正整数解$(a,b,c\in Z)$</p>
+<p>得出了一条结论：</p>
 <blockquote>
-<p>假设$n=a^m+b$并且$\sqrt[m]{n}=a+x(x&lt;1)$<br>$\therefore n=(a+x)^m$<br>$n=a^m+ma^{m-1}x+\dots+max^{m-1}+x^m$</p>
+<p>若$[a,b]$与$c$互质，则$x^a+y^b=z^c$必定有正整数解<br><strong>注：$[a,b]$指$a$和$b$的最小公倍数</strong></p>
 </blockquote>
-<p>此时，我们可以将省略号全部去掉（因为这部分比较难计算），并且把$x^m$去掉（因为这部分太小了）</p>
-<p>所以原本的式子就变成了</p>
-<script type="math/tex; mode=display">n=a^m+max(a^{m-2}+x^{m-2})</script><script type="math/tex; mode=display">b=max(a^{m-2}+x^{m-2})</script><script type="math/tex; mode=display">\frac{b}{ma}=x(a^{m-2}+x^{m-2})</script><script type="math/tex; mode=display">\frac{b}{ma}=xa^{m-2}+x^{m-1}</script><p>然后因为$x^{m-1}$也很小，那么也扔掉，最后</p>
-<script type="math/tex; mode=display">\frac{b}{ma}=xa^{m-2}</script><script type="math/tex; mode=display">x=\frac{b}{ma^{m-1}}</script><p>所以</p>
-<script type="math/tex; mode=display">\sqrt[m]{n}=a+x</script><script type="math/tex; mode=display">\sqrt[m]{n}=a+\frac{b}{ma^{m-1}}</script><h2 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h2><p><code>Update 2019.10.4</code></p>
-<p>十分感谢@jacky567 给出了一个改进后的方法。</p>
-<p>当我们算出$a+\frac{b}{ma^{m-1}}$后，他已经接近$\sqrt[m]{n}$了。</p>
-<p>因为我们说了，$|b|$越小越好，那么$a+\frac{b}{ma^{m-1}}$代入公式中的$a$，那么$b$就会更小，这时我们再迭代计算一遍，这个值就会更接近于$\sqrt[m]{n}$。</p>
-<p>举个例子$\sqrt{2}$：</p>
-<blockquote>
-<script type="math/tex; mode=display">2=1^2+1,\sqrt{2}\approx1+\frac{1}{2}=1.5</script><script type="math/tex; mode=display">2=(1.5)^2+(-0.25),\sqrt{2}\approx1.5+\frac{-0.25}{3}=\frac{17}{12}=1.41\dot6</script><script type="math/tex; mode=display">2=(\frac{17}{12})^2+(-\frac{1}{144}),\sqrt{2}\approx\frac{17}{12}-\frac{1}{408}=\frac{577}{408}=1.414\dot215686274509803\dot9</script><script type="math/tex; mode=display">\dots</script></blockquote>
-<p>以此类推，你会发现他的精确度越来越高。（$94.2809\%\to99.8268\%\to99.9998\%%$）</p>
-<p>那么只要你一直算下去，他就会更接近于$\sqrt{2}$。</p>
-<h2 id="其他开根号的方法"><a href="#其他开根号的方法" class="headerlink" title="其他开根号的方法"></a>其他开根号的方法</h2><p>有牛顿迭代法、手算（夹逼法？）、无穷连分数近似法、以及一种神奇的开平方根的卡马克开方法，但是卡马克开方法只适用于计算机（如果是人算就算了吧）。</p>
-<p>这些以后有时间再讲（又开了一个新坑）</p>
+<p>证明过程大概是从互质到确定一个不定方程有正整数解，再利用这个解求出$x^a+y^b=z^c$的解</p>
+<p>从互质到确定一个不定方程有正整数解这一部分我想了很久，因为没怎么学过不定方程的知识，最后还是在七年级奥数书里找到了思路</p>
+<p>以下是具体证明（若有错误请提醒订正，大佬轻喷）：<br>$\because[a,b]$与$c$互质<br>$\therefore$由裴蜀定理得$cm+(-[a,b])n=1$必有<strong>整数</strong>解<br>设$m_0,n_0$为$cm+(-[a,b])n=1$的一组整数解<br>$\therefore cm+(-[a,b])n=1$所有整数解为</p>
+<script type="math/tex; mode=display">\begin{cases}n=n_0+ck\\m=m_0+[a,b]k\end{cases}</script><script type="math/tex; mode=display">(k\in Z)</script><p>$\because a,b,c\in Z$<br>$\therefore$由式子得出当$k$足够大时，$n=n_0+ck&gt;0$且$m=m_0+[a,b]k&gt;0$<br>$\therefore cm+(-[a,b])n=1$必有<strong>正整数</strong>解<br>即$[a,b]n+1=cm$有正整数解<br>又$\because a|[a,b]\quad m,n\in Z$<br>$\therefore\frac{cm-1}{a}\in Z,2^m\in Z$<br>$\therefore2^{\frac{cm-1}{a}}\in Z$<br>同理可得$2^{\frac{cm-1}{b}}\in Z$</p>
+<script type="math/tex; mode=display">\Large 2^{cm}=2^{cm}</script><script type="math/tex; mode=display">\Large 2^{cm-1}+2^{cm-1}={(2^m)}^c</script><script type="math/tex; mode=display">\Large {(2^{\frac{cm-1}{a}})}^a+{(2^{\frac{cm-1}{b}})}^b={(2^m)}^c</script><p>$\Large\therefore\begin{cases}x=2^{\frac{cm-1}{a}}\\y=2^{\frac{cm-1}{b}}\\z=2^m\end{cases}$</p>
+<p>证毕</p>
 
       
     </div>
@@ -472,12 +451,12 @@
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="/2019/这是一个开m次根号的公式/">这是一个开m次根号的公式</a></p>
+  <p><span>本文标题:</span><a href="/2019/记一次数论研究/">记一次数论研究</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 King 的个人博客">King</a></p>
-  <p><span>发布时间:</span>2019年09月28日 - 14:09</p>
-  <p><span>最后更新:</span>2019年11月16日 - 18:11</p>
-  <p><span>原始链接:</span><a href="/2019/这是一个开m次根号的公式/" title="这是一个开m次根号的公式">http://2005czq.github.io/2019/这是一个开m次根号的公式/</a>
-    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/这是一个开m次根号的公式/" aria-label="复制成功！"></i></span>
+  <p><span>发布时间:</span>2019年12月15日 - 03:12</p>
+  <p><span>最后更新:</span>2019年12月15日 - 03:12</p>
+  <p><span>原始链接:</span><a href="/2019/记一次数论研究/" title="记一次数论研究">http://2005czq.github.io/2019/记一次数论研究/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://2005czq.github.io/2019/记一次数论研究/" aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -531,9 +510,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/根号/" <i class="fa fa-tag"> 根号</a>
-          
-            <a href="/tags/杨辉三角/" <i class="fa fa-tag"> 杨辉三角</a>
+            <a href="/tags/裴蜀定理/" <i class="fa fa-tag"> 裴蜀定理</a>
           
         </div>
       
@@ -559,8 +536,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/这是一棵美丽的勾股树/" rel="next" title="这是一棵美丽的勾股树">
-                <i class="fa fa-chevron-left"></i> 这是一棵美丽的勾股树
+              <a href="/2019/记一次研学活动/" rel="next" title="记一次研学活动">
+                <i class="fa fa-chevron-left"></i> 记一次研学活动
               </a>
             
           </div>
@@ -568,10 +545,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/浅谈梯度下降法/" rel="prev" title="浅谈梯度下降法">
-                浅谈梯度下降法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -636,17 +609,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1029,22 +993,6 @@ if(canvas.getContext){
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#灵感来源"><span class="nav-number">1.</span> <span class="nav-text">灵感来源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#举个栗子"><span class="nav-number">2.</span> <span class="nav-text">举个栗子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推导"><span class="nav-number">3.</span> <span class="nav-text">推导</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Update"><span class="nav-number">4.</span> <span class="nav-text">Update</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他开根号的方法"><span class="nav-number">5.</span> <span class="nav-text">其他开根号的方法</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
