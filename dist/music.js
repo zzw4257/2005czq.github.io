@@ -71,32 +71,11 @@ const ap = new APlayer({
         lrc: '[00:00.00]Limitless (无限制) - Sam F/Sophie Rose\n[00:06.28]Written by：Linsey Saunders/Meron Ryan/Sam Fishman/Sophie Rose\n[00:12.57]Moonlight burning in our eyes\n[00:14.67]We are we are\n[00:17.27]Too high for the better life\n[00:20.45]We’re stars we’re stars\n[00:23.53]Lay your head down forget your worries\n[00:27.45]This is where where we belong\n[00:30.56]Moonlight burning in our eyes\n[00:33.80]We are we are\n[00:36.10]Caught in a daydream holding onto something\n[00:40.16]Just beyond our fingertips\n[00:42.06]Stuck in a feeling love the heavy breathing\n[00:46.23]I can taste it on my lips\n[00:48.15]Limitless\n[00:51.79]Burning up the sky all the night\n[00:54.32]Limitless\n[00:57.26]Wanna feel the fire let me take you high\n[01:00.70]Limitless ooh ooh\n[01:06.60]Limitless ooh ooh\n[01:12.49]Limitless limitless limitless\n[01:32.53]Starlight in our impulsive night\n[01:40.63]We are we are\n[01:43.40]Children of different kind\n[01:46.61]We’re stars we’re stars\n[01:49.66]Listen to the rhythm of the heartbeat\n[01:53.81]Let the sound ignite your soul\n[01:56.55]Starlight in our impulsive night\n[01:59.41]We are we are\n[02:02.25]Caught in a daydream holding onto something\n[02:06.11]Just beyond our fingertips\n[02:08.13]Stuck in a feeling love the heavy breathing\n[02:12.40]I can taste it on my lips\n[02:14.33]Limitless\n[02:17.94]Burning up the sky all the night\n[02:20.69]Limitless\n[02:23.99]Wanna feel the fire let me take you high\n[02:26.73]Limitless ooh ooh\n[02:32.81]Limitless ooh ooh\n[02:38.96]Limitless limitless limitless\n[02:58.57]We are\n[03:20.83]We are'
       },
       {
-        name: 'Chat',
-        artist: '天宅',
-        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020CF1277196-cbf7033a02310e88.mp3',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001Oz1S32WcMhX.jpg',
-        lrc: '[00:00.00] 纯音乐'
-      },
-      {
-        name: 'melon',
-        artist: 'Ocha',
-        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020D4E795D6B-b211ce0da2355a42.mp3',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000u54NR3L88aM.jpg',
-        lrc: '[00:00.00] 纯音乐'
-      },
-      {
-        name: 'Can We Kiss Forever',
-        artist: 'Kina',
-        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020C783C5F46-792411896f02e610.mp3',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000w3T1H3s6HI7.jpg',
-        lrc: '[00:00.37]Can We Kiss Forever - Kina\n[00:09.42]I tried to reach you I can’t hide\n[00:13.77]How strong’s the feeling when we dive\n[00:18.16]I crossed the ocean of my mind\n[00:22.69]My wounds are healing with the salt\n[00:26.81]All my senses intensified\n[00:31.16]Whenever you and I we dive\n[00:35.82]I crossed the ocean of my mind\n[00:39.63]But in the end I drown\n[00:41.82]You push me down down\n[01:44.87]All the shame\n[01:52.55]When you called my name\n[02:02.25]I felt pain\n[02:11.00]When you came'
-      },
-      {
-        name: 'Lanterns',
-        artist: 'Xomu',
-        url: 'https://attachment.mc.0sm.com/node0/2019/11/85DD020D7171A2CD-4f04a0630fcf1718.mp3',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000030lvdT2eIANQ.jpg',
-        lrc: '[00:00.00] 纯音乐'
+        name: 'Dance Monkey',
+        artist: 'Tones and I',
+        url: 'https://attachment.mc.0sm.com/node0/2019/12/85DF59E7935FC53A-2f88c40e24a75cb6.mp3',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000bibkf2fIMqY.jpg',
+        lrc: '[00:00.00]Dance Monkey - Tones and I\n[00:09.21]They say oh my god I see the way you shine\n[00:14.05]Take your hand my dear and place them both in mine\n[00:18.53]You know you stopped me dead when I was passing by\n[00:23.74]And now I beg to see you dance just one more time\n[00:28.10]Ooh I see you see you see you every time\n[00:33.59]And oh my I I I like your style\n[00:38.09]You you make me make me make me wanna cry\n[00:43.43]And now I beg to see you dance just one more time\n[00:47.72]So I say\n[00:48.99]Dance for me dance for me dance for me oh oh oh\n[00:53.18]I’ve never seen anybody do the things you do before\n[00:57.54]They say move for me move for me move for me\n[01:00.70]Ay ay ay\n[01:03.06]And when you’re done I’ll make you do it all again\n[01:08.12]I said oh my god I see you walking by\n[01:12.94]Take my hands my dear and look me in my eyes\n[01:17.55]Just like a monkey I’ve been dancing my whole life\n[01:22.51]And you just beg to see me dance just one more time\n[01:26.89]Ooh I see you see you see you every time\n[01:32.46]And oh my I I I like your style\n[01:36.80]You you make me make me make me wanna cry\n[01:42.23]And now I beg to see you dance just one more time\n[01:46.48]So I say\n[01:47.84]Dance for me dance for me dance for me oh oh oh\n[01:52.06]I’ve never seen anybody do the things you do before\n[01:56.41]They say move for me move for me move for me\n[01:59.52]Ay ay ay\n[02:01.85]And when you’re done I’ll make you do it all again\n[02:06.25]They say\n[02:07.47]Dance for me dance for me dance for me\n[02:09.24]Oh oh oh oh oh oh oh\n[02:11.51]I’ve never seen anybody do the things you do before\n[02:15.92]They say move for me move for me move for me\n[02:19.05]Ay ay ay\n[02:21.43]And when you’re done I’ll make you do it all again\n[02:27.06]Ooh all again all again\n[02:34.17]Woah-oh woah-oh oh\n[02:44.16]Ah ah ah ah ay\n[02:45.92]They say\n[02:46.62]Dance for me dance for me dance for me\n[02:48.47]Oh oh oh\n[02:50.81]I’ve never seen anybody do the things you do before\n[02:55.18]They say move for me move for me move for me\n[02:58.28]Ay ay ay\n[03:00.56]And when you’re done I’ll make you do it all again\n[03:05.00]They say\n[03:06.22]Dance for me dance for me dance for me\n[03:08.06]Oh oh oh oh oh oh oh\n[03:10.42]I’ve never seen anybody do the things you do before\n[03:14.74]They say move for me move for me move for me\n[03:17.86]Ay ay ay\n[03:20.22]And when you’re done I’ll make you do it all again\n[03:24.59]All again'
       }
     ]
 });
